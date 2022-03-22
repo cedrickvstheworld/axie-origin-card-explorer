@@ -1,0 +1,54 @@
+@import './constants.css';
+
+body {
+  background-color: var(--bg-default);
+  scroll-behavior: smooth;
+  font-family: Avenir Next,Muli,sans-serif;
+  color: var(--color-default);
+}
+
+.root {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+
+::-webkit-scrollbar {
+  width: 0.5em;
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(31, 31, 31); 
+  border-radius: 5px;
+}
+
+.horizontal-divider {
+  width: 100%;
+  height: 1px;
+  background-color: var(--color-faint);
+}
+
+.beast-color {
+  color: var(--color-beast);
+}
+
+.aqua-color {
+  color: var(--color-aquatic);
+}
+
+.plant-color {
+  color: var(--color-plant);
+}
+
+.bug-color {
+  color: var(--color-bug);
+}
+
+.bird-color {
+  color: var(--color-bird);
+}
+
+.reptile-color {
+  color: var(--color-reptile);
+}

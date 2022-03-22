@@ -1,0 +1,105 @@
+@import './constants.css';
+
+.side-pane-container {
+  width: 280px;
+  height: 100%;
+  overflow-y: auto;
+  box-shadow: 1px 0 0 var(--color-faint);
+}
+
+/* .side-pane {
+  height: 3000px;
+} */
+
+.filter-head {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+.filter-head-items {
+  height: 30px !important;
+}
+
+.filter-head-text {
+  font-size: var(--font-size-h1);
+}
+
+.reset-container {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+.filter-reset-text {
+  cursor: pointer;
+  color: var(--color-primary-4);
+  font-size: var(--font-size-h3);
+}
+
+.filter-reset-text:hover {
+  color: var(--color-primary-3);
+}
+
+.filter-head-text,
+.filter-reset-text,
+.filter-favourites {
+  display: grid;
+  justify-content: start;
+  align-items: center;
+  height: 100%;
+}
+
+.filter-favourites {
+  color: var(--color-gray-1);
+  justify-content: end;
+}
+
+.class-filter,
+.part-filter,
+.type-filter,
+.energy-cost-filter {
+  margin: 20px 20px;
+  margin-bottom: 30px;
+}
+
+.filter-class-text,
+.filter-part-text,
+.filter-type-text,
+.filter-energy-cost-text {
+  font-size: var(--font-size-h2);
+  margin-bottom: 10px;
+}
+
+.class-button-group-item {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.class-filter-button {
+  padding: 4px 7px;
+  margin-right: 0.55em;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 4px;
+  background-color: var(--color-gray-3);
+  color: var(--color-white);
+  outline: none;
+  border: none;
+  transition: background-color .3s ease,color .3s ease;
+}
+
+.class-filter-button:hover {
+  background-color: var(--color-gray-2);
+}
+
+.input-select {
+  padding: 8px 10px;
+  line-height: 20px;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  width: 100%;
+  background-color: var(--color-gray-3);
+  border-right: 10px solid transparent;
+}
+
