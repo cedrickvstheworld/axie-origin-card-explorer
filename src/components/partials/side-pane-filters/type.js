@@ -6,10 +6,12 @@ const TypeFilter = () => {
         <select className="input-select">
           <option value="all">All</option>
           <option value="attack">Attack</option>
-          <option value="defense">Defense</option>
-          <option value="heal">Heal</option>
           <option value="secret">Secret</option>
           <option value="skill">Skill</option>
+          <option value="banish">Banish</option>
+          <option value="retain">Retain</option>
+          <option value="power">Power</option>
+          <option value="innate">Innate</option>
         </select>
       </div>
     </div>

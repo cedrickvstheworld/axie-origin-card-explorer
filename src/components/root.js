@@ -1,4 +1,5 @@
 import SidePane from './side-pane';
+import ViewPane from './view-pane';
 
 const Root = () => {
   return (
@@ -7,6 +8,7 @@ const Root = () => {
         <SidePane />
       </div>
       <div className="view-pane-container">
+        <ViewPane />
       </div>
     </div>
   );

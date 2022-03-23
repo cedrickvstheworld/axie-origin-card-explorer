@@ -1,0 +1,7 @@
+.view-pane {
+  margin: 20px;
+}
+
+.view-pane-card-text {
+  font-size: var(--font-size-h0);
+}
