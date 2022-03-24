@@ -1,14 +1,29 @@
+import {useContext} from 'react';
+import {parts} from '../../../contents/constants';
+import {filterActions} from '../../../reducers/filter';
+import {FilterContext} from '../../../contexts/filter';
+
 const PartFilter = () => {
+  const {filterDispatch} = useContext(FilterContext);
+  const handleSelect = (e) => {
+    const selected = e.target.value
+    const payload = selected ? [selected] : [];
+    filterDispatch({
+      type: filterActions.SET_PART,
+      payload,
+    })
+  };
+
   return (
     <div className="part-filter">
       <div className="filter-part-text">Part</div>
       <div className="select-part-container">
-        <select className="input-select">
-          <option value="all">All</option>
-          <option value="horn">Horn</option>
-          <option value="mouth">Mouth</option>
-          <option value="back">Back</option>
-          <option value="tail">Tail</option>
+        <select onChange={handleSelect} className="input-select">
+          <option value="">All</option>
+          <option value={parts.HORN}>Horn</option>
+          <option value={parts.MOUTH}>Mouth</option>
+          <option value={parts.BACK}>Back</option>
+          <option value={parts.TAIL}>Tail</option>
         </select>
       </div>
     </div>

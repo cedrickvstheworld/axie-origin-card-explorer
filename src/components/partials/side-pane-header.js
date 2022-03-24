@@ -1,7 +1,11 @@
 import {useContext} from "react";
 import {FilterModalContext} from "../../contexts/filter-modal";
+import {filterActions} from '../../reducers/filter';
+import {FilterContext} from '../../contexts/filter';
+
 
 const SidePaneHeader = () => {
+  const {filterDispatch} = useContext(FilterContext);
   const {setFilterModalVisible} = useContext(FilterModalContext);
 
   const hideModal = () => {
@@ -19,6 +23,10 @@ const SidePaneHeader = () => {
     }, 500);
   };
 
+  const resetFilter = () => {
+    filterDispatch({type: filterActions.CLEAR_FILTER})
+  }
+
   return (
     <div className="filter-head">
       <div className="small-screen-close-button-container">
@@ -29,7 +37,7 @@ const SidePaneHeader = () => {
           <div className="filter-head-text">Filter</div>
         </div>
         <div className="col s9 filter-head-items reset-container">
-          <div className="filter-reset-text">Reset</div>
+          <div onClick={resetFilter} className="filter-reset-text">Reset</div>
         </div>
       </div>
     </div>

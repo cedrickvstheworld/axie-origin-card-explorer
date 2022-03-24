@@ -1,23 +1,25 @@
-import {useState} from 'react';
+import {useContext} from 'react';
 import ViewPaneClass from "./partials/view-pane-class";
-import {cards} from '../contents/cards';
-import { fitlerByClass } from '../utils.js/helpers';
+import {filterCards, fitlerByClass} from '../utils.js/helpers';
 import {axieClass} from '../contents/constants';
 import SmallScreenFilter from './partials/small-screen-filter';
+import {FilterContext} from '../contexts/filter';
+import {cards} from '../contents/cards';
 
 const ViewPane = () => {
-  const [cardList] = useState(cards);
-  const aquaticCards = fitlerByClass(axieClass.AQUATIC);
-  const beastCards = fitlerByClass(axieClass.BEAST);
-  const birdCards = fitlerByClass(axieClass.BIRD);
-  const bugCards = fitlerByClass(axieClass.BUG);
-  const plantCards = fitlerByClass(axieClass.PLANT);
-  const reptileCards = fitlerByClass(axieClass.REPTILE);
+  const {filter} = useContext(FilterContext);
+  const filteredCards = filterCards(filter);
+  const aquaticCards = fitlerByClass(axieClass.AQUATIC, filteredCards);
+  const beastCards = fitlerByClass(axieClass.BEAST, filteredCards);
+  const birdCards = fitlerByClass(axieClass.BIRD, filteredCards);
+  const bugCards = fitlerByClass(axieClass.BUG, filteredCards);
+  const plantCards = fitlerByClass(axieClass.PLANT, filteredCards);
+  const reptileCards = fitlerByClass(axieClass.REPTILE, filteredCards);
 
   return (
     <div className="view-pane">
       <div className="view-pane-head-content-group">
-        <div className="view-pane-card-text">{cardList.length} Cards</div>
+        <div className="view-pane-card-text">{cards.length} Cards</div>
         <SmallScreenFilter />
       </div>
 

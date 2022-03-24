@@ -23,3 +23,5 @@ export const type = {
   POWER: 'POWER',
   INNATE: 'INNATE',
 };
+
+export const energyCosts = [0, 1, 2];
