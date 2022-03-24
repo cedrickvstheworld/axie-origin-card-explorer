@@ -31,8 +31,8 @@ export const cards = [
   },
   {
     id: 3,
-    name: 'acro',
-    imgURL: '/cards/horn/acro.png',
+    name: 'arco',
+    imgURL: '/cards/horn/arco.png',
     class: axieClass.BEAST,
     part: parts.HORN,
     type: [type.ATTACK],
@@ -59,7 +59,7 @@ export const cards = [
   {
     id: 6,
     name: 'beech',
-    imgURL: '/cards/horn/',
+    imgURL: '/cards/horn/beech.png',
     class: axieClass.PLANT,
     part: parts.HORN,
     type: [type.ATTACK],
@@ -107,7 +107,7 @@ export const cards = [
   {
     id: 11,
     name: 'clamshell',
-    imgURL: '/cards/horn/calmshell.png',
+    imgURL: '/cards/horn/clamshell.png',
     class: axieClass.AQUATIC,
     part: parts.HORN,
     type: [type.ATTACK],
@@ -161,7 +161,7 @@ export const cards = [
   {
     id: 17,
     name: 'incisor',
-    imgURL: '/cards/horn/insicor.png',
+    imgURL: '/cards/horn/incisor.png',
     class: axieClass.REPTILE,
     part: parts.HORN,
     type: [type.ATTACK],
@@ -332,7 +332,7 @@ export const cards = [
   {
     id: 36,
     name: 'wing horn',
-    imgURL: '/cards/horns/winghorn.png',
+    imgURL: '/cards/horn/winghorn.png',
     class: axieClass.BIRD,
     part: parts.HORN,
     type: [type.ATTACK],
@@ -438,7 +438,7 @@ export const cards = [
   {
     id: 47,
     name: 'litte owl',
-    imgURL: '/cards/mouth/litteowlmouth.png',
+    imgURL: '/cards/mouth/littleowlmouth.png',
     class: axieClass.BIRD,
     part: parts.MOUTH,
     type: [type.ATTACK],
@@ -501,7 +501,7 @@ export const cards = [
   {
     id: 54,
     name: 'risky fish',
-    imgURL: '/cards/mouth/rishyfish.png',
+    imgURL: '/cards/mouth/riskyfish.png',
     class: axieClass.AQUATIC,
     part: parts.MOUTH,
     type: [type.ATTACK],
@@ -979,8 +979,8 @@ export const cards = [
   },
   {
     id: 107,
-    name: 'grandma\'s fan',
-    imgURL: '/cards/tail/grandmasfan.png',
+    name: 'granma\'s fan',
+    imgURL: '/cards/tail/granmasfan.png',
     class: axieClass.BIRD,
     part: parts.TAIL,
     type: [

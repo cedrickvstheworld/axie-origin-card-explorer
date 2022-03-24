@@ -7,9 +7,13 @@
   box-shadow: 1px 0 0 var(--color-faint);
 }
 
-/* .side-pane {
-  height: 3000px;
-} */
+.small-screen-close-button-container {
+  display: none;
+  padding: 0 10px;
+  align-items: center;
+  justify-content: end;
+  margin-bottom: 10px;
+}
 
 .filter-head {
   margin-left: 10px;
@@ -103,3 +107,18 @@
   border-right: 10px solid transparent;
 }
 
+@media (max-width: 1110px) {
+  .side-pane-container {
+    display: none;
+  }
+
+  .reset-container {
+    display: grid;
+    align-items: center;
+    justify-content: end;
+  }
+
+  .small-screen-close-button-container {
+    display: grid;
+  }
+}

@@ -1,7 +1,129 @@
-.view-pane {
-  margin: 20px;
+@import './constants.css';
+
+.view-pane-container {
+  padding: 20px 50px;
+  height: 100%;
+  width: 100%;
+  flex: 1;
+  overflow-y: auto;
+}
+
+.view-pane-head-content-group {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-content: end;
+}
+
+.view-pane-class-container {
+  margin-bottom: 50px;
 }
 
 .view-pane-card-text {
+  font-size: var(--font-size-h1);
+  color: var(--color-gray-1)
+}
+
+.view-pane-class-text {
   font-size: var(--font-size-h0);
+}
+
+.small-screen-filter-content-group {
+  display: none;
+  align-items: center;
+  justify-content: end;
+}
+
+.small-screen-filter-button {
+  padding: 5px 10px;
+  margin-right: 0.55em;
+  font-size: 14px;
+  line-height: 18px;
+  border-radius: 4px;
+  background-color: var(--color-primary-3);
+  color: var(--color-white);
+  outline: none;
+  border: none;
+  transition: background-color .3s ease,color .3s ease;
+}
+
+.small-screen-filter-modal {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--bg-default);
+}
+
+.small-screen-filter-button:hover {
+  background-color: var(--color-gray-2);
+}
+
+.card-list-container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.card-container {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.card-image {
+  width: 230px;
+  height: 340px;
+}
+
+.card-viewer-container {
+  margin-top: 20px;
+}
+
+@media (max-width: 1700px) {
+  .card-list-container {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+@media (max-width: 1600px) {
+  .card-list-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 1380px) {
+  .card-list-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 1110px) {
+  .small-screen-filter-content-group {
+    display: grid;
+  }
+}
+
+@media (max-width: 850px) {
+  .card-list-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 650px) {
+  .view-pane-container {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 550px) {
+  .card-list-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .card-image {
+    width: 260px;
+    height: 420px;
+  }
 }

@@ -1,4 +1,4 @@
-import HorizontalDivider from './horizontal-divider';
+import HorizontalDivider from './partials/horizontal-divider';
 import ClassFilter from './partials/side-pane-filters/class';
 import EnergyCostFilter from './partials/side-pane-filters/energy-cost';
 import PartFilter from './partials/side-pane-filters/part';
