@@ -1,5 +1,4 @@
 import {useContext} from "react";
-import {FilterModalContext} from "../../contexts/filter-modal";
 import {filterActions} from '../../reducers/filter';
 import {FilterContext} from '../../contexts/filter';
 
@@ -15,22 +14,6 @@ const SidePaneHeader = () => {
     setIsReptileSelected,
     setClassFilter,
   } = useContext(FilterContext);
-  const {setFilterModalVisible} = useContext(FilterModalContext);
-
-  const hideModal = () => {
-    const modal = document.getElementById('small-screen-filter-modal');
-    modal.classList.remove('animate__slideInDown');
-    modal.classList.add('animate__fadeOutUp');
-    const hideToDisplay = setTimeout(() => {
-      modal.classList.remove('animate__fadeOutUp');
-      modal.classList.add('animate__slideInDown');
-      clearTimeout(hideToDisplay);
-    }, 500);
-    const unmount = setTimeout(() => {
-      setFilterModalVisible(false);
-      clearTimeout(unmount);
-    }, 500);
-  };
 
   const resetFilter = () => {
     filterDispatch({type: filterActions.CLEAR_FILTER});
@@ -71,10 +54,25 @@ const SidePaneHeader = () => {
     document.getElementById('search-card-name-input').value = '';
   };
 
+  const hideSmallScreenFilter = () => {
+    const modal = document.getElementById('small-screen-filter-modal');
+    modal.classList.remove('animate__slideInDown');
+    modal.classList.add('animate__fadeOutUp');
+    const hideToDisplay = setTimeout(() => {
+      modal.classList.remove('animate__fadeOutUp');
+      modal.classList.add('animate__slideInDown');
+      clearTimeout(hideToDisplay);
+    }, 500);
+    const unmount = setTimeout(() => {
+      modal.style.display = 'none';
+      clearTimeout(unmount);
+    }, 500);
+  };
+
   return (
     <div className="filter-head">
       <div className="small-screen-close-button-container">
-        <i onClick={hideModal} className="fa-solid fa-xmark fa-2x"></i>
+        <i onClick={hideSmallScreenFilter} className="fa-solid fa-xmark fa-2x"></i>
       </div>
       <div className="row">
         <div className="col s3 filter-head-items">

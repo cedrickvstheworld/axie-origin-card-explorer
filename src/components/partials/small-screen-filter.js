@@ -1,13 +1,12 @@
-import {useContext} from "react";
-import {FilterModalContext} from "../../contexts/filter-modal";
-
 const SmallScreenFilter = () => {
-  const {setFilterModalVisible} = useContext(FilterModalContext);
-
+  const showSmallScreenFilter = () => {
+    document.getElementById('small-screen-filter-modal').style.display = 'block';
+  };
+  
   return (
     <div className="small-screen-filter">
       <div className="small-screen-filter-content-group">
-        <button onClick={() => setFilterModalVisible(true)} className="small-screen-filter-button">
+        <button onClick={showSmallScreenFilter} className="small-screen-filter-button">
           Filter
         </button>
       </div>

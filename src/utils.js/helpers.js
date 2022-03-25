@@ -19,4 +19,5 @@ export const filterCards = (filter) => {
   })
 };
 
-export const stringSanitize = (str) => (str ? str.replace(/\s+/g, ' ').trim() : '');
+export const stringSanitize = (str) => (str ? str.replace(/\s+/g, ' ')
+  .trim().replace(/[.*+?^${}()|[\]\\]/g, '\\$&') : '');

@@ -3,13 +3,14 @@ import {
   parts,
   type,
 } from './constants';
+import {v4 as uuidv4} from 'uuid'
 
 export const cards = [
   /**
    * horns
    */
   {
-    id: 1,
+    id: uuidv4(),
     name: 'anemone',
     imgURL: '/cards/horn/anemonehorn.png',
     class: axieClass.AQUATIC,
@@ -18,7 +19,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 2,
+    id: uuidv4(),
     name: 'antenna',
     imgURL: '/cards/horn/antenna.png',
     class: axieClass.BUG,
@@ -30,7 +31,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 3,
+    id: uuidv4(),
     name: 'arco',
     imgURL: '/cards/horn/arco.png',
     class: axieClass.BEAST,
@@ -39,7 +40,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 4,
+    id: uuidv4(),
     name: 'babylonia',
     imgURL: '/cards/horn/babylonia.png',
     class: axieClass.AQUATIC,
@@ -48,7 +49,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 5,
+    id: uuidv4(),
     name: 'bamboo shoot',
     imgURL: '/cards/horn/bambooshoot.png',
     class: axieClass.PLANT,
@@ -57,7 +58,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 6,
+    id: uuidv4(),
     name: 'beech',
     imgURL: '/cards/horn/beech.png',
     class: axieClass.PLANT,
@@ -66,7 +67,7 @@ export const cards = [
     energyCost: 2,
   },
   {
-    id: 7,
+    id: uuidv4(),
     name: 'bumpy',
     imgURL: '/cards/horn/bumpy.png',
     class: axieClass.REPTILE,
@@ -78,7 +79,7 @@ export const cards = [
     energyCost: 2,
   },
   {
-    id: 8,
+    id: uuidv4(),
     name: 'cactus',
     imgURL: '/cards/horn/cactus.png',
     class: axieClass.PLANT,
@@ -87,7 +88,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 9,
+    id: uuidv4(),
     name: 'caterpillars',
     imgURL: '/cards/horn/caterpillars.png',
     class: axieClass.BUG,
@@ -96,7 +97,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 10,
+    id: uuidv4(),
     name: 'cerastes',
     imgURL: '/cards/horn/cerastes.png',
     class: axieClass.REPTILE,
@@ -105,7 +106,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 11,
+    id: uuidv4(),
     name: 'clamshell',
     imgURL: '/cards/horn/clamshell.png',
     class: axieClass.AQUATIC,
@@ -114,7 +115,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 12,
+    id: uuidv4(),
     name: 'cuckoo',
     imgURL: '/cards/horn/cuckoo.png',
     class: axieClass.BIRD,
@@ -123,7 +124,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 13,
+    id: uuidv4(),
     name: 'dual blade',
     imgURL: '/cards/horn/dualblade.png',
     class: axieClass.BEAST,
@@ -132,7 +133,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 14,
+    id: uuidv4(),
     name: 'eggshell',
     imgURL: '/cards/horn/eggshell.png',
     class: axieClass.BIRD,
@@ -141,7 +142,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 15,
+    id: uuidv4(),
     name: 'feather spear',
     imgURL: '/cards/horn/featherspear.png',
     class: axieClass.BIRD,
@@ -150,7 +151,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 16,
+    id: uuidv4(),
     name: 'imp',
     imgURL: '/cards/horn/imp.png',
     class: axieClass.BEAST,
@@ -159,7 +160,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 17,
+    id: uuidv4(),
     name: 'incisor',
     imgURL: '/cards/horn/incisor.png',
     class: axieClass.REPTILE,
@@ -168,7 +169,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 18,
+    id: uuidv4(),
     name: 'kestrel',
     imgURL: '/cards/horn/kestrel.png',
     class: axieClass.BIRD,
@@ -177,7 +178,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 19,
+    id: uuidv4(),
     name: 'lagging',
     imgURL: '/cards/horn/lagging.png',
     class: axieClass.BUG,
@@ -186,7 +187,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 20,
+    id: uuidv4(),
     name: 'leaf bug',
     imgURL: '/cards/horn/leafbughorn.png',
     class: axieClass.BUG,
@@ -195,7 +196,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 21,
+    id: uuidv4(),
     name: 'little branch',
     imgURL: '/cards/horn/littlebranch.png',
     class: axieClass.BEAST,
@@ -204,7 +205,7 @@ export const cards = [
     energyCost: 2,
   },
   {
-    id: 22,
+    id: uuidv4(),
     name: 'merry',
     imgURL: '/cards/horn/merry.png',
     class: axieClass.BEAST,
@@ -213,7 +214,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 23,
+    id: uuidv4(),
     name: 'oranda',
     imgURL: '/cards/horn/oranda.png',
     class: axieClass.AQUATIC,
@@ -222,7 +223,7 @@ export const cards = [
     energyCost: 2,
   },
   {
-    id: 24,
+    id: uuidv4(),
     name: 'parasite',
     imgURL: '/cards/horn/parasite.png',
     class: axieClass.BUG,
@@ -231,7 +232,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 25,
+    id: uuidv4(),
     name: 'pliers',
     imgURL: '/cards/horn/pliers.png',
     class: axieClass.BUG,
@@ -240,7 +241,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 26,
+    id: uuidv4(),
     name: 'pocky',
     imgURL: '/cards/horn/pocky.png',
     class: axieClass.BEAST,
@@ -249,7 +250,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 27,
+    id: uuidv4(),
     name: 'rose bud',
     imgURL: '/cards/horn/rosebud.png',
     class: axieClass.PLANT,
@@ -258,7 +259,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 28,
+    id: uuidv4(),
     name: 'scaly spear',
     imgURL: '/cards/horn/scalyspear.png',
     class: axieClass.REPTILE,
@@ -267,7 +268,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 29,
+    id: uuidv4(),
     name: 'scaly spoon',
     imgURL: '/cards/horn/scalyspoon.png',
     class: axieClass.REPTILE,
@@ -276,7 +277,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 30,
+    id: uuidv4(),
     name: 'shoal star',
     imgURL: '/cards/horn/shoalstar.png',
     class: axieClass.AQUATIC,
@@ -285,7 +286,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 31,
+    id: uuidv4(),
     name: 'strawberry shortcake',
     imgURL: '/cards/horn/strawberryshortcake.png',
     class: axieClass.PLANT,
@@ -294,7 +295,7 @@ export const cards = [
     energyCost: 2,
   },
   {
-    id: 32,
+    id: uuidv4(),
     name: 'teal shell',
     imgURL: '/cards/horn/tealshell.png',
     class: axieClass.AQUATIC,
@@ -303,7 +304,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 33,
+    id: uuidv4(),
     name: 'trump',
     imgURL: '/cards/horn/trump.png',
     class: axieClass.BIRD,
@@ -312,7 +313,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 34,
+    id: uuidv4(),
     name: 'unko',
     imgURL: '/cards/horn/unko.png',
     class: axieClass.REPTILE,
@@ -321,7 +322,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 35,
+    id: uuidv4(),
     name: 'watermelon',
     imgURL: '/cards/horn/watermelon.png',
     class: axieClass.PLANT,
@@ -330,7 +331,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 36,
+    id: uuidv4(),
     name: 'wing horn',
     imgURL: '/cards/horn/winghorn.png',
     class: axieClass.BIRD,
@@ -343,7 +344,7 @@ export const cards = [
    * mouths
    */
   {
-    id: 37,
+    id: uuidv4(),
     name: 'axie kiss',
     imgURL: '/cards/mouth/axiekiss.png',
     class: axieClass.BEAST,
@@ -352,7 +353,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 38,
+    id: uuidv4(),
     name: 'catfish',
     imgURL: '/cards/mouth/catfish.png',
     class: axieClass.AQUATIC,
@@ -361,7 +362,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 39,
+    id: uuidv4(),
     name: 'confident',
     imgURL: '/cards/mouth/confident.png',
     class: axieClass.BEAST,
@@ -370,7 +371,7 @@ export const cards = [
     energyCost: 0,
   },
   {
-    id: 40,
+    id: uuidv4(),
     name: 'cute bunny',
     imgURL: '/cards/mouth/cutebunny.png',
     class: axieClass.BUG,
@@ -379,7 +380,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 41,
+    id: uuidv4(),
     name: 'doubletalk',
     imgURL: '/cards/mouth/doubletalk.png',
     class: axieClass.BIRD,
@@ -388,7 +389,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 42,
+    id: uuidv4(),
     name: 'goda',
     imgURL: '/cards/mouth/goda.png',
     class: axieClass.BEAST,
@@ -400,7 +401,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 43,
+    id: uuidv4(),
     name: 'herbivore',
     imgURL: '/cards/mouth/herbivore.png',
     class: axieClass.PLANT,
@@ -409,7 +410,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 44,
+    id: uuidv4(),
     name: 'hungry bird',
     imgURL: '/cards/mouth/hungrybird.png',
     class: axieClass.BIRD,
@@ -418,7 +419,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 45,
+    id: uuidv4(),
     name: 'kotaro',
     imgURL: '/cards/mouth/kotaromouth.png',
     class: axieClass.REPTILE,
@@ -427,7 +428,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 46,
+    id: uuidv4(),
     name: 'lam',
     imgURL: '/cards/mouth/lam.png',
     class: axieClass.AQUATIC,
@@ -436,7 +437,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 47,
+    id: uuidv4(),
     name: 'litte owl',
     imgURL: '/cards/mouth/littleowlmouth.png',
     class: axieClass.BIRD,
@@ -445,7 +446,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 48,
+    id: uuidv4(),
     name: 'mosquito',
     imgURL: '/cards/mouth/mosquito.png',
     class: axieClass.BUG,
@@ -454,7 +455,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 49,
+    id: uuidv4(),
     name: 'nut cracker',
     imgURL: '/cards/mouth/nutcrackermouth.png',
     class: axieClass.BEAST,
@@ -463,7 +464,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 50,
+    id: uuidv4(),
     name: 'peace maker',
     imgURL: '/cards/mouth/peacemaker.png',
     class: axieClass.BIRD,
@@ -472,7 +473,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 51,
+    id: uuidv4(),
     name: 'pincer',
     imgURL: '/cards/mouth/pincer.png',
     class: axieClass.BUG,
@@ -481,7 +482,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 52,
+    id: uuidv4(),
     name: 'piranha',
     imgURL: '/cards/mouth/piranha.png',
     class: axieClass.AQUATIC,
@@ -490,7 +491,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 53,
+    id: uuidv4(),
     name: 'razor bite',
     imgURL: '/cards/mouth/razorbite.png',
     class: axieClass.REPTILE,
@@ -499,7 +500,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 54,
+    id: uuidv4(),
     name: 'risky fish',
     imgURL: '/cards/mouth/riskyfish.png',
     class: axieClass.AQUATIC,
@@ -508,7 +509,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 55,
+    id: uuidv4(),
     name: 'serious',
     imgURL: '/cards/mouth/serious.png',
     class: axieClass.PLANT,
@@ -517,7 +518,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 56,
+    id: uuidv4(),
     name: 'silence whisper',
     imgURL: '/cards/mouth/silencewhisper.png',
     class: axieClass.PLANT,
@@ -526,7 +527,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 57,
+    id: uuidv4(),
     name: 'square teeth',
     imgURL: '/cards/mouth/squareteeth.png',
     class: axieClass.BUG,
@@ -535,7 +536,7 @@ export const cards = [
     energyCost: 0,
   },
   {
-    id: 58,
+    id: uuidv4(),
     name: 'tiny turtle',
     imgURL: '/cards/mouth/tinyturtle.png',
     class: axieClass.REPTILE,
@@ -544,7 +545,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 59,
+    id: uuidv4(),
     name: 'toothless bite',
     imgURL: '/cards/mouth/toothlessbite.png',
     class: axieClass.REPTILE,
@@ -553,7 +554,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 60,
+    id: uuidv4(),
     name: 'zigzag',
     imgURL: '/cards/mouth/zigzag.png',
     class: axieClass.PLANT,
@@ -566,7 +567,7 @@ export const cards = [
    * backs
    */
   {
-    id: 61,
+    id: uuidv4(),
     name: 'anemone',
     imgURL: '/cards/back/anemone.png',
     class: axieClass.AQUATIC,
@@ -575,7 +576,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 62,
+    id: uuidv4(),
     name: 'balloon',
     imgURL: '/cards/back/balloon.png',
     class: axieClass.BIRD,
@@ -584,7 +585,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 63,
+    id: uuidv4(),
     name: 'bidens',
     imgURL: '/cards/back/bidens.png',
     class: axieClass.PLANT,
@@ -593,7 +594,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 64,
+    id: uuidv4(),
     name: 'blue moon',
     imgURL: '/cards/back/bluemoon.png',
     class: axieClass.AQUATIC,
@@ -602,7 +603,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 65,
+    id: uuidv4(),
     name: 'bone sail',
     imgURL: '/cards/back/bonesail.png',
     class: axieClass.REPTILE,
@@ -611,7 +612,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 66,
+    id: uuidv4(),
     name: 'buzz buzz',
     imgURL: '/cards/back/buzzbuzz.png',
     class: axieClass.BUG,
@@ -620,7 +621,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 67,
+    id: uuidv4(),
     name: 'croc',
     imgURL: '/cards/back/croc.png',
     class: axieClass.REPTILE,
@@ -629,7 +630,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 68,
+    id: uuidv4(),
     name: 'cupid',
     imgURL: '/cards/back/cupid.png',
     class: axieClass.BIRD,
@@ -638,7 +639,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 69,
+    id: uuidv4(),
     name: 'furball',
     imgURL: '/cards/back/furball.png',
     class: axieClass.BEAST,
@@ -647,7 +648,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 70,
+    id: uuidv4(),
     name: 'garish worm',
     imgURL: '/cards/back/garishworm.png',
     class: axieClass.BUG,
@@ -656,7 +657,7 @@ export const cards = [
     energyCost: 2,
   },
   {
-    id: 71,
+    id: uuidv4(),
     name: 'goldfish',
     imgURL: '/cards/back/goldfish.png',
     class: axieClass.AQUATIC,
@@ -665,7 +666,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 72,
+    id: uuidv4(),
     name: 'green thorns',
     imgURL: '/cards/back/greenthorns.png',
     class: axieClass.REPTILE,
@@ -674,7 +675,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 73,
+    id: uuidv4(),
     name: 'hermit',
     imgURL: '/cards/back/hermit.png',
     class: axieClass.AQUATIC,
@@ -683,7 +684,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 74,
+    id: uuidv4(),
     name: 'hero',
     imgURL: '/cards/back/hero.png',
     class: axieClass.BEAST,
@@ -692,7 +693,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 75,
+    id: uuidv4(),
     name: 'indian star',
     imgURL: '/cards/back/indianstar.png',
     class: axieClass.REPTILE,
@@ -701,7 +702,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 76,
+    id: uuidv4(),
     name: 'jaguar',
     imgURL: '/cards/back/jaguar.png',
     class: axieClass.BEAST,
@@ -710,7 +711,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 77,
+    id: uuidv4(),
     name: 'kingfisher',
     imgURL: '/cards/back/kingfisher.png',
     class: axieClass.BIRD,
@@ -719,7 +720,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 78,
+    id: uuidv4(),
     name: 'mint',
     imgURL: '/cards/back/mint.png',
     class: axieClass.PLANT,
@@ -728,7 +729,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 79,
+    id: uuidv4(),
     name: 'perch',
     imgURL: '/cards/back/perch.png',
     class: axieClass.AQUATIC,
@@ -737,7 +738,7 @@ export const cards = [
     energyCost: 2,
   },
   {
-    id: 80,
+    id: uuidv4(),
     name: 'pigeon post',
     imgURL: '/cards/back/pigeonpost.png',
     class: axieClass.BIRD,
@@ -746,7 +747,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 81,
+    id: uuidv4(),
     name: 'pumpkin',
     imgURL: '/cards/back/pumpkin.png',
     class: axieClass.PLANT,
@@ -755,7 +756,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 82,
+    id: uuidv4(),
     name: 'raven',
     imgURL: '/cards/back/raven.png',
     class: axieClass.BIRD,
@@ -764,7 +765,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 83,
+    id: uuidv4(),
     name: 'red ear',
     imgURL: '/cards/back/redear.png',
     class: axieClass.REPTILE,
@@ -773,7 +774,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 84,
+    id: uuidv4(),
     name: 'risky beast',
     imgURL: '/cards/back/riskybeast.png',
     class: axieClass.BEAST,
@@ -782,7 +783,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 85,
+    id: uuidv4(),
     name: 'ronin',
     imgURL: '/cards/back/ronin.png',
     class: axieClass.BEAST,
@@ -791,7 +792,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 87,
+    id: uuidv4(),
     name: 'sandal',
     imgURL: '/cards/back/sandal.png',
     class: axieClass.BUG,
@@ -800,7 +801,7 @@ export const cards = [
     energyCost: 2,
   },
   {
-    id: 88,
+    id: uuidv4(),
     name: 'scarab',
     imgURL: '/cards/back/scarab.png',
     class: axieClass.BUG,
@@ -809,7 +810,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 89,
+    id: uuidv4(),
     name: 'shiitake',
     imgURL: '/cards/back/shiitake.png',
     class: axieClass.PLANT,
@@ -818,7 +819,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 90,
+    id: uuidv4(),
     name: 'snail shell',
     imgURL: '/cards/back/snailshell.png',
     class: axieClass.BUG,
@@ -827,7 +828,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 91,
+    id: uuidv4(),
     name: 'spiky wing',
     imgURL: '/cards/back/spikywing.png',
     class: axieClass.BUG,
@@ -836,7 +837,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 92,
+    id: uuidv4(),
     name: 'sponge',
     imgURL: '/cards/back/sponge.png',
     class: axieClass.AQUATIC,
@@ -845,7 +846,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 93,
+    id: uuidv4(),
     name: 'timber',
     imgURL: '/cards/back/timber.png',
     class: axieClass.BEAST,
@@ -854,7 +855,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 94,
+    id: uuidv4(),
     name: 'tri feather',
     imgURL: '/cards/back/trifeather.png',
     class: axieClass.BIRD,
@@ -863,7 +864,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 95,
+    id: uuidv4(),
     name: 'tri spikes',
     imgURL: '/cards/back/trispikes.png',
     class: axieClass.REPTILE,
@@ -872,7 +873,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 96,
+    id: uuidv4(),
     name: 'turnip',
     imgURL: '/cards/back/turnip.png',
     class: axieClass.PLANT,
@@ -881,7 +882,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 97,
+    id: uuidv4(),
     name: 'watering can',
     imgURL: '/cards/back/wateringcan.png',
     class: axieClass.PLANT,
@@ -894,7 +895,7 @@ export const cards = [
    * tails
    */
   {
-    id: 98,
+    id: uuidv4(),
     name: 'ant',
     imgURL: '/cards/tail/ant.png',
     class: axieClass.BUG,
@@ -903,7 +904,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 99,
+    id: uuidv4(),
     name: 'carrot',
     imgURL: '/cards/tail/carrot.png',
     class: axieClass.PLANT,
@@ -912,7 +913,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 100,
+    id: uuidv4(),
     name: 'cattail;',
     imgURL: '/cards/tail/cattail.png',
     class: axieClass.PLANT,
@@ -921,7 +922,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 101,
+    id: uuidv4(),
     name: 'cloud',
     imgURL: '/cards/tail/cloud.png',
     class: axieClass.BIRD,
@@ -930,7 +931,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 102,
+    id: uuidv4(),
     name: 'cottontail',
     imgURL: '/cards/tail/cottontail.png',
     class: axieClass.BEAST,
@@ -942,7 +943,7 @@ export const cards = [
     energyCost: 0,
   },
   {
-    id: 103,
+    id: uuidv4(),
     name: 'feather fan',
     imgURL: '/cards/tail/featherfan.png',
     class: axieClass.BIRD,
@@ -951,7 +952,7 @@ export const cards = [
     energyCost: 2,
   },
   {
-    id: 104,
+    id: uuidv4(),
     name: 'fish snack',
     imgURL: '/cards/tail/fishsnack.png',
     class: axieClass.BUG,
@@ -960,7 +961,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 105,
+    id: uuidv4(),
     name: 'gerbil',
     imgURL: '/cards/tail/gerbil.png',
     class: axieClass.BEAST,
@@ -969,7 +970,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 106,
+    id: uuidv4(),
     name: 'gila',
     imgURL: '/cards/tail/gila.png',
     class: axieClass.REPTILE,
@@ -978,7 +979,7 @@ export const cards = [
     energyCost: 2,
   },
   {
-    id: 107,
+    id: uuidv4(),
     name: 'granma\'s fan',
     imgURL: '/cards/tail/granmasfan.png',
     class: axieClass.BIRD,
@@ -990,7 +991,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 108,
+    id: uuidv4(),
     name: 'grass snake',
     imgURL: '/cards/tail/grasssnake.png',
     class: axieClass.REPTILE,
@@ -999,7 +1000,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 109,
+    id: uuidv4(),
     name: 'gravel ant',
     imgURL: '/cards/tail/gravelant.png',
     class: axieClass.BUG,
@@ -1008,7 +1009,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 110,
+    id: uuidv4(),
     name: 'hare',
     imgURL: '/cards/tail/hare.png',
     class: axieClass.BEAST,
@@ -1017,7 +1018,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 111,
+    id: uuidv4(),
     name: 'hatsune',
     imgURL: '/cards/tail/hatsune.png',
     class: axieClass.PLANT,
@@ -1026,7 +1027,16 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 112,
+    id: uuidv4(),
+    name: 'hotbutt',
+    imgURL: '/cards/tail/hotbutt.png',
+    class: axieClass.PLANT,
+    part: parts.TAIL,
+    type: [type.SKILL],
+    energyCost: 1,
+  },
+  {
+    id: uuidv4(),
     name: 'iguana',
     imgURL: '/cards/tail/iguana.png',
     class: axieClass.REPTILE,
@@ -1035,7 +1045,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 113,
+    id: uuidv4(),
     name: 'koi',
     imgURL: '/cards/tail/koi.png',
     class: axieClass.AQUATIC,
@@ -1044,7 +1054,7 @@ export const cards = [
     energyCost: 2,
   },
   {
-    id: 114,
+    id: uuidv4(),
     name: 'navaga',
     imgURL: '/cards/tail/navaga.png',
     class: axieClass.AQUATIC,
@@ -1053,7 +1063,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 115,
+    id: uuidv4(),
     name: 'nimo',
     imgURL: '/cards/tail/nimo.png',
     class: axieClass.AQUATIC,
@@ -1065,7 +1075,7 @@ export const cards = [
     energyCost: 0,
   },
   {
-    id: 116,
+    id: uuidv4(),
     name: 'nut cracker',
     imgURL: '/cards/tail/nutcrackertail.png',
     class: axieClass.BEAST,
@@ -1074,7 +1084,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 117,
+    id: uuidv4(),
     name: 'post fight',
     imgURL: '/cards/tail/postfight.png',
     class: axieClass.BIRD,
@@ -1083,7 +1093,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 118,
+    id: uuidv4(),
     name: 'potato leaf',
     imgURL: '/cards/tail/potatoleaf.png',
     class: axieClass.PLANT,
@@ -1092,7 +1102,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 119,
+    id: uuidv4(),
     name: 'pupae',
     imgURL: '/cards/tail/pupae.png',
     class: axieClass.BUG,
@@ -1101,7 +1111,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 120,
+    id: uuidv4(),
     name: 'ranchu',
     imgURL: '/cards/tail/ranchu.png',
     class: axieClass.AQUATIC,
@@ -1110,7 +1120,7 @@ export const cards = [
     energyCost: 2,
   },
   {
-    id: 121,
+    id: uuidv4(),
     name: 'rice',
     imgURL: '/cards/tail/rice.png',
     class: axieClass.BEAST,
@@ -1119,7 +1129,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 122,
+    id: uuidv4(),
     name: 'shiba',
     imgURL: '/cards/tail/shiba.png',
     class: axieClass.BEAST,
@@ -1128,7 +1138,7 @@ export const cards = [
     energyCost: 2,
   },
   {
-    id: 123,
+    id: uuidv4(),
     name: 'shrimp',
     imgURL: '/cards/tail/shrimp.png',
     class: axieClass.AQUATIC,
@@ -1137,7 +1147,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 124,
+    id: uuidv4(),
     name: 'snake jar',
     imgURL: '/cards/tail/snakejar.png',
     class: axieClass.REPTILE,
@@ -1146,7 +1156,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 125,
+    id: uuidv4(),
     name: 'swallow',
     imgURL: '/cards/tail/swallow.png',
     class: axieClass.BIRD,
@@ -1155,7 +1165,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 126,
+    id: uuidv4(),
     name: 'tadpole',
     imgURL: '/cards/tail/tadpole.png',
     class: axieClass.AQUATIC,
@@ -1164,7 +1174,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 127,
+    id: uuidv4(),
     name: 'the last one',
     imgURL: '/cards/tail/thelastone.png',
     class: axieClass.BIRD,
@@ -1173,7 +1183,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 128,
+    id: uuidv4(),
     name: 'thorny caterpillar',
     imgURL: '/cards/tail/thornycaterpillar.png',
     class: axieClass.BUG,
@@ -1182,7 +1192,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 129,
+    id: uuidv4(),
     name: 'tiny dino',
     imgURL: '/cards/tail/tinydino.png',
     class: axieClass.REPTILE,
@@ -1194,7 +1204,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 130,
+    id: uuidv4(),
     name: 'twin tail',
     imgURL: '/cards/tail/twintail.png',
     class: axieClass.BUG,
@@ -1203,7 +1213,7 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 131,
+    id: uuidv4(),
     name: 'wall gecko',
     imgURL: '/cards/tail/wallgecko.png',
     class: axieClass.REPTILE,
@@ -1212,12 +1222,350 @@ export const cards = [
     energyCost: 1,
   },
   {
-    id: 132,
+    id: uuidv4(),
     name: 'yam',
     imgURL: '/cards/tail/yam.png',
     class: axieClass.PLANT,
     part: parts.TAIL,
     type: [type.ATTACK],
     energyCost: 0,
+  },
+
+  /**
+   * ears
+   */
+  {
+    id: uuidv4(),
+    name: 'beetle spike',
+    imgURL: '/cards/ear/beetlespike.png',
+    class: axieClass.BUG,
+    part: parts.EAR,
+    type: [type.ATTACK],
+    energyCost: 1,
+  },
+  {
+    id: uuidv4(),
+    name: 'belieber',
+    imgURL: '/cards/ear/belieber.png',
+    class: axieClass.BEAST,
+    part: parts.EAR,
+    type: [type.ATTACK],
+    energyCost: 1,
+  },
+  {
+    id: uuidv4(),
+    name: 'bubblemaker',
+    imgURL: '/cards/ear/bubblemaker.png',
+    class: axieClass.AQUATIC,
+    part: parts.EAR,
+    type: [type.SKILL],
+    energyCost: 1,
+  },
+  {
+    id: uuidv4(),
+    name: 'clover',
+    imgURL: '/cards/ear/clover.png',
+    class: axieClass.PLANT,
+    part: parts.EAR,
+    type: [type.SKILL],
+    energyCost: 1,
+  },
+  {
+    id: uuidv4(),
+    name: 'curly',
+    imgURL: '/cards/ear/curly.png',
+    class: axieClass.BIRD,
+    part: parts.EAR,
+    type: [type.ATTACK],
+    energyCost: 1,
+  },
+  {
+    id: uuidv4(),
+    name: 'curved spine',
+    imgURL: '/cards/ear/curvedspine.png',
+    class: axieClass.REPTILE,
+    part: parts.EAR,
+    type: [type.SECRET],
+    energyCost: 1,
+  },
+  {
+    id: uuidv4(),
+    name: 'ear breathing',
+    imgURL: '/cards/ear/earbreathing.png',
+    class: axieClass.BUG,
+    part: parts.EAR,
+    type: [type.ATTACK],
+    energyCost: 2,
+  },
+  {
+    id: uuidv4(),
+    name: 'early bird',
+    imgURL: '/cards/ear/earlybird.png',
+    class: axieClass.BIRD,
+    part: parts.EAR,
+    type: [type.ATTACK],
+    energyCost: 1,
+  },
+  {
+    id: uuidv4(),
+    name: 'earwing',
+    imgURL: '/cards/ear/earwing.png',
+    class: axieClass.BUG,
+    part: parts.EAR,
+    type: [type.ATTACK],
+    energyCost: 1,
+  },
+  {
+    id: uuidv4(),
+    name: 'friezard',
+    imgURL: '/cards/ear/friezard.png',
+    class: axieClass.REPTILE,
+    part: parts.EAR,
+    type: [type.SKILL],
+    energyCost: 1,
+  },
+  {
+    id: uuidv4(),
+    name: 'gill',
+    imgURL: '/cards/ear/gill.png',
+    class: axieClass.AQUATIC,
+    part: parts.EAR,
+    type: [type.ATTACK],
+    energyCost: 1,
+  },
+  {
+    id: uuidv4(),
+    name: 'hollow',
+    imgURL: '/cards/ear/hollow.png',
+    class: axieClass.PLANT,
+    part: parts.EAR,
+    type: [type.SKILL],
+    energyCost: 0,
+  },
+  {
+    id: uuidv4(),
+    name: 'inkling',
+    imgURL: '/cards/ear/inkling.png',
+    class: axieClass.AQUATIC,
+    part: parts.EAR,
+    type: [type.ATTACK],
+    energyCost: 1,
+  },
+  {
+    id: uuidv4(),
+    name: 'innocent lamb',
+    imgURL: '/cards/ear/innocentlamb.png',
+    class: axieClass.BEAST,
+    part: parts.EAR,
+    type: [
+      type.SKILL,
+      type.BANISH,
+    ],
+    energyCost: 1,
+  },
+  {
+    id: uuidv4(),
+    name: 'larva',
+    imgURL: '/cards/ear/larva.png',
+    class: axieClass.BUG,
+    part: parts.EAR,
+    type: [type.SKILL],
+    energyCost: 0,
+  },
+  {
+    id: uuidv4(),
+    name: 'leaf bug',
+    imgURL: '/cards/ear/leafbugear.png',
+    class: axieClass.BUG,
+    part: parts.EAR,
+    type: [type.SKILL],
+    energyCost: 1,
+  },
+  {
+    id: uuidv4(),
+    name: 'leafy',
+    imgURL: '/cards/ear/leafy.png',
+    class: axieClass.PLANT,
+    part: parts.EAR,
+    type: [type.ATTACK],
+    energyCost: 0,
+  },
+  {
+    id: uuidv4(),
+    name: 'little owl',
+    imgURL: '/cards/ear/littleowlear.png',
+    class: axieClass.BIRD,
+    part: parts.EAR,
+    type: [type.ATTACK],
+    energyCost: 1,
+  },
+  {
+    id: uuidv4(),
+    name: 'lotus',
+    imgURL: '/cards/ear/lotus.png',
+    class: axieClass.PLANT,
+    part: parts.EAR,
+    type: [type.SKILL],
+    energyCost: 1,
+  },
+  {
+    id: uuidv4(),
+    name: 'nimo',
+    imgURL: '/cards/ear/nimoear.png',
+    class: axieClass.AQUATIC,
+    part: parts.EAR,
+    type: [type.SKILL],
+    energyCost: 0,
+  },
+  {
+    id: uuidv4(),
+    name: 'nut craker',
+    imgURL: '/cards/ear/nutcrackerear.png',
+    class: axieClass.BEAST,
+    part: parts.EAR,
+    type: [type.ATTACK],
+    energyCost: 1,
+  },
+  {
+    id: uuidv4(),
+    name: 'nyan',
+    imgURL: '/cards/ear/nyan.png',
+    class: axieClass.BEAST,
+    part: parts.EAR,
+    type: [type.ATTACK],
+    energyCost: 1,
+  },
+  {
+    id: uuidv4(),
+    name: 'pagona',
+    imgURL: '/cards/ear/pagona.png',
+    class: axieClass.REPTILE,
+    part: parts.EAR,
+    type: [type.ATTACK],
+    energyCost: 1,
+  },
+  {
+    id: uuidv4(),
+    name: 'peace maker',
+    imgURL: '/cards/ear/peacemakerear.png',
+    class: axieClass.BIRD,
+    part: parts.EAR,
+    type: [type.ATTACK],
+    energyCost: 1,
+  },
+  {
+    id: uuidv4(),
+    name: 'pink cheek',
+    imgURL: '/cards/ear/pinkcheek.png',
+    class: axieClass.BIRD,
+    part: parts.EAR,
+    type: [
+      type.SKILL,
+      type.BANISH
+    ],
+    energyCost: 0,
+  },
+  {
+    id: uuidv4(),
+    name: 'puppy',
+    imgURL: '/cards/ear/puppy.png',
+    class: axieClass.BEAST,
+    part: parts.EAR,
+    type: [type.SKILL],
+    energyCost: 1,
+  },
+  {
+    id: uuidv4(),
+    name: 'risky bird',
+    imgURL: '/cards/ear/riskybird.png',
+    class: axieClass.BIRD,
+    part: parts.EAR,
+    type: [type.ATTACK],
+    energyCost: 1,
+  },
+  {
+    id: uuidv4(),
+    name: 'rosa',
+    imgURL: '/cards/ear/rosa.png',
+    class: axieClass.PLANT,
+    part: parts.EAR,
+    type: [
+      type.ATTACK,
+      type.BANISH,
+      type.INNATE,
+    ],
+    energyCost: 0,
+  },
+  {
+    id: uuidv4(),
+    name: 'sakura',
+    imgURL: '/cards/ear/sakura.png',
+    class: axieClass.PLANT,
+    part: parts.EAR,
+    type: [type.POWER],
+    energyCost: 2,
+  },
+  {
+    id: uuidv4(),
+    name: 'seaslug',
+    imgURL: '/cards/ear/seaslug.png',
+    class: axieClass.AQUATIC,
+    part: parts.EAR,
+    type: [type.ATTACK],
+    energyCost: 2,
+  },
+  {
+    id: uuidv4(),
+    name: 'sidebarb',
+    imgURL: '/cards/ear/sidebarb.png',
+    class: axieClass.REPTILE,
+    part: parts.EAR,
+    type: [type.ATTACK],
+    energyCost: 1,
+  },
+  {
+    id: uuidv4(),
+    name: 'small frill',
+    imgURL: '/cards/ear/smallfrill.png',
+    class: axieClass.REPTILE,
+    part: parts.EAR,
+    type: [type.SKILL],
+    energyCost: 1,
+  },
+  {
+    id: uuidv4(),
+    name: 'swirl',
+    imgURL: '/cards/ear/swirl.png',
+    class: axieClass.REPTILE,
+    part: parts.EAR,
+    type: [type.SKILL],
+    energyCost: 1,
+  },
+  {
+    id: uuidv4(),
+    name: 'tassels',
+    imgURL: '/cards/ear/tassels.png',
+    class: axieClass.BUG,
+    part: parts.EAR,
+    type: [type.SKILL],
+    energyCost: 1,
+  },
+  {
+    id: uuidv4(),
+    name: 'tiny fan',
+    imgURL: '/cards/ear/tinyfan.png',
+    class: axieClass.AQUATIC,
+    part: parts.EAR,
+    type: [type.SKILL],
+    energyCost: 0,
+  },
+  {
+    id: uuidv4(),
+    name: 'zen',
+    imgURL: '/cards/ear/zen.png',
+    class: axieClass.BEAST,
+    part: parts.EAR,
+    type: [type.SKILL],
+    energyCost: 1,
   },
 ];

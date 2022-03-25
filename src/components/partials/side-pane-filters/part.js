@@ -24,6 +24,7 @@ const PartFilter = () => {
           <option value={parts.MOUTH}>Mouth</option>
           <option value={parts.BACK}>Back</option>
           <option value={parts.TAIL}>Tail</option>
+          <option value={parts.EAR}>Ear</option>
         </select>
       </div>
     </div>
