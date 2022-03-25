@@ -5,7 +5,16 @@ import {FilterContext} from '../../contexts/filter';
 
 
 const SidePaneHeader = () => {
-  const {filterDispatch} = useContext(FilterContext);
+  const {
+    filterDispatch,
+    setIsBeastSelected,
+    setIsAquaticSelected,
+    setIsPlantSelected,
+    setIsBugSelected,
+    setIsBirdSelected,
+    setIsReptileSelected,
+    setClassFilter,
+  } = useContext(FilterContext);
   const {setFilterModalVisible} = useContext(FilterModalContext);
 
   const hideModal = () => {
@@ -24,8 +33,40 @@ const SidePaneHeader = () => {
   };
 
   const resetFilter = () => {
-    filterDispatch({type: filterActions.CLEAR_FILTER})
-  }
+    filterDispatch({type: filterActions.CLEAR_FILTER});
+    const classTogglesToOff = [
+      setIsBeastSelected,
+      setIsAquaticSelected,
+      setIsPlantSelected,
+      setIsBugSelected,
+      setIsBirdSelected,
+      setIsReptileSelected,
+    ];
+    classTogglesToOff.forEach((classToggle) => classToggle(false));
+    setClassFilter([]);
+
+    // reset class filter button state
+    const classFilterButtons = document.getElementsByClassName('class-filter-button');
+    for (let i in classFilterButtons) {
+      const button = classFilterButtons[i];
+      button.classList.remove('class-filter-button-selected');
+      button.classList.add('class-filter-button-unselected');
+      button.children[0].classList.remove('class-icon-selected');
+      if (parseInt(i) + 1 === classFilterButtons.length) {
+        break;
+      }
+    }
+    
+    // reset input-selects selected value
+    const inputSelects = document.getElementsByClassName('input-select');
+    for (let i in inputSelects) {
+      const inputSelect = inputSelects[i];
+      inputSelect.value = '';
+      if (parseInt(i) + 1 === inputSelects.length) {
+        break;
+      }
+    }
+  };
 
   return (
     <div className="filter-head">

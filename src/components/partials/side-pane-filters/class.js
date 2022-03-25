@@ -1,30 +1,38 @@
 /* eslint-disable react-hooks/exhaustive-deps */
-import {useEffect, useState, useContext} from 'react';
+import {useEffect, useContext} from 'react';
 import {axieClass} from '../../../contents/constants';
 import {filterActions} from '../../../reducers/filter';
 import {FilterContext} from '../../../contexts/filter';
 
 const ClassFilter = () => {
-  const {filterDispatch} = useContext(FilterContext);
-
-  const [isBeastSelected, setIsBeastSelected] = useState(false);
-  const [isAquaticSelected, setIsAquaticSelected] = useState(false);
-  const [isPlantSelected, setIsPlantSelected] = useState(false);
-  const [isBugSelected, setIsBugSelected] = useState(false);
-  const [isBirdSelected, setIsBirdSelected] = useState(false);
-  const [isReptileSelected, setIsReptileSelected] = useState(false);
-  const [classFilter, setClassFilter] = useState([]);
+  const {
+    filterDispatch,
+    isBeastSelected,
+    setIsBeastSelected,
+    isAquaticSelected,
+    setIsAquaticSelected,
+    isPlantSelected,
+    setIsPlantSelected,
+    isBugSelected,
+    setIsBugSelected,
+    isBirdSelected,
+    setIsBirdSelected,
+    isReptileSelected,
+    setIsReptileSelected,
+    classFilter,
+    setClassFilter,
+  } = useContext(FilterContext);
 
   const buttonToggle = (e, identifier, action) => {
     if (!identifier) {
-      e.classList.remove('class-filter-button-unselected');
-      e.classList.add('class-filter-button-selected');
-      e.children[0].classList.add('class-icon-selected');
+      e.target.classList.remove('class-filter-button-unselected');
+      e.target.classList.add('class-filter-button-selected');
+      e.target.children[0].classList.add('class-icon-selected');
     }
     else {
-      e.classList.remove('class-filter-button-selected');
-      e.classList.add('class-filter-button-unselected');
-      e.children[0].classList.remove('class-icon-selected');
+      e.target.classList.remove('class-filter-button-selected');
+      e.target.classList.add('class-filter-button-unselected');
+      e.target.children[0].classList.remove('class-icon-selected');
     }
     action(!identifier);
   };
@@ -108,10 +116,6 @@ const ClassFilter = () => {
     }
   }, [isReptileSelected]);
 
-  const handleClick = (e, identifier, action) => {
-    buttonToggle(e.target, identifier, action);
-  };
-
   return (
     <div className="class-filter">
       <div className="filter-class-text">Class</div>
@@ -120,19 +124,19 @@ const ClassFilter = () => {
         {/* row 1 */}
         <div className="class-button-group-item">
           <button
-            onClick={(e) => handleClick(e, isBeastSelected, setIsBeastSelected)}
+            onClick={(e) => buttonToggle(e, isBeastSelected, setIsBeastSelected)}
             className="class-filter-button class-filter-button-unselected">
               <i className="fa-solid fa-paw beast-color"></i>
               &nbsp;Beast
           </button>
           <button
-            onClick={(e) => handleClick(e, isAquaticSelected, setIsAquaticSelected)}
+            onClick={(e) => buttonToggle(e, isAquaticSelected, setIsAquaticSelected)}
             className="class-filter-button class-filter-button-unselected">
               <i className="fa-solid fa-fish aqua-color"></i>
               &nbsp;Aquatic
           </button>
           <button
-            onClick={(e) => handleClick(e, isPlantSelected, setIsPlantSelected)}
+            onClick={(e) => buttonToggle(e, isPlantSelected, setIsPlantSelected)}
             className="class-filter-button class-filter-button-unselected">
               <i className="fa-solid fa-seedling plant-color"></i>
               &nbsp;Plant
@@ -142,19 +146,19 @@ const ClassFilter = () => {
         {/* row 2 */}
         <div className="class-button-group-item">
           <button 
-            onClick={(e) => handleClick(e, isBugSelected, setIsBugSelected)}
+            onClick={(e) => buttonToggle(e, isBugSelected, setIsBugSelected)}
             className="class-filter-button class-filter-button-unselected">
               <i className="fa-solid fa-bug bug-color"></i>
               &nbsp;Bug
           </button>
           <button
-            onClick={(e) => handleClick(e, isBirdSelected, setIsBirdSelected)}
+            onClick={(e) => buttonToggle(e, isBirdSelected, setIsBirdSelected)}
             className="class-filter-button class-filter-button-unselected">
               <i className="fa-solid fa-feather-pointed bird-color"></i>
               &nbsp;Bird
           </button>
           <button
-            onClick={(e) => handleClick(e, isReptileSelected, setIsReptileSelected)}
+            onClick={(e) => buttonToggle(e, isReptileSelected, setIsReptileSelected)}
             className="class-filter-button class-filter-button-unselected">
               <i className="fa-solid fa-worm reptile-color"></i>
               &nbsp;Reptile
