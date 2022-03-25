@@ -24,33 +24,25 @@ export const filterReducer = (state, action) => {
   switch(action.type) {
     case filterActions.SET_CLASSES:
       return {
+        ...state,
         classes: !action.payload.length ? initialFilter.classes : action.payload,
-        parts: state.parts,
-        types: state.types,
-        energyCosts: state.energyCosts,
       };
     
     case filterActions.SET_PART:
       return {
-        classes: state.classes,
+        ...state,
         parts: !action.payload.length ? initialFilter.parts : action.payload,
-        types: state.types,
-        energyCosts: state.energyCosts,
       };
     
     case filterActions.SET_TYPE:
       return {
-        classes: state.classes,
-        parts: state.parts,
+        ...state,
         types: !action.payload.length ? initialFilter.types : action.payload,
-        energyCosts: state.energyCosts,
       };
     
     case filterActions.SET_ENERGY_COST:
       return {
-        classes: state.classes,
-        parts: state.parts,
-        types: state.types,
+        ...state,
         energyCosts: !action.payload.length ? initialFilter.energyCosts : action.payload,
       };
     
