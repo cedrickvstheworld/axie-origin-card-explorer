@@ -45,23 +45,18 @@
 }
 
 .filter-head-text,
-.filter-reset-text,
-.filter-favourites {
+.filter-reset-text {
   display: grid;
   justify-content: start;
   align-items: center;
   height: 100%;
 }
 
-.filter-favourites {
-  color: var(--color-gray-1);
-  justify-content: end;
-}
-
 .class-filter,
 .part-filter,
 .type-filter,
-.energy-cost-filter {
+.energy-cost-filter,
+.name-filter {
   margin: 20px 20px;
   margin-bottom: 30px;
 }
@@ -69,7 +64,8 @@
 .filter-class-text,
 .filter-part-text,
 .filter-type-text,
-.filter-energy-cost-text {
+.filter-energy-cost-text,
+.filter-name-text {
   font-size: var(--font-size-h2);
   margin-bottom: 10px;
 }
@@ -124,7 +120,7 @@
   background-color: var(--color-gray-2);
 }
 
-.input-select {
+.input-select, .search-card-name-input {
   padding: 8px 10px;
   line-height: 20px;
   outline: none;

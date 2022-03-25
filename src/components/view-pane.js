@@ -4,7 +4,6 @@ import {filterCards, fitlerByClass} from '../utils.js/helpers';
 import {axieClass} from '../contents/constants';
 import SmallScreenFilter from './partials/small-screen-filter';
 import {FilterContext} from '../contexts/filter';
-import {cards} from '../contents/cards';
 
 const ViewPane = () => {
   const {filter} = useContext(FilterContext);
@@ -19,7 +18,9 @@ const ViewPane = () => {
   return (
     <div className="view-pane">
       <div className="view-pane-head-content-group">
-        <div className="view-pane-card-text">{cards.length} Cards</div>
+        <div className="view-pane-card-text">
+          {filteredCards.length} Card{filteredCards.length > 1 ? 's' : ''}
+        </div>
         <SmallScreenFilter />
       </div>
 

@@ -66,6 +66,9 @@ const SidePaneHeader = () => {
         break;
       }
     }
+
+    // reset name search input
+    document.getElementById('search-card-name-input').value = '';
   };
 
   return (

@@ -10,6 +10,7 @@ export const initialFilter = {
   parts: Object.values(parts),
   types: Object.values(type),
   energyCosts: energyCosts,
+  name: '',
 };
 
 export const filterActions = {
@@ -17,6 +18,7 @@ export const filterActions = {
   SET_PART: 'SET_PART',
   SET_TYPE: 'SET_TYPE',
   SET_ENERGY_COST: 'SET_ENERGY_COST',
+  SET_NAME: 'SET_NAME',
   CLEAR_FILTER: 'CLEAR_FILTER',
 };
 
@@ -44,6 +46,12 @@ export const filterReducer = (state, action) => {
       return {
         ...state,
         energyCosts: !action.payload.length ? initialFilter.energyCosts : action.payload,
+      };
+    
+    case filterActions.SET_NAME:
+      return {
+        ...state,
+        name: action.payload,
       };
     
     case filterActions.CLEAR_FILTER:
