@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import 'animate.css';
 import './static/css/main.css';
+import './static/css/footer.css';
 import './static/css/side-pane.css';
 import './static/css/view-pane.css';
 import './static/css/materialize-css-grid.min.css';

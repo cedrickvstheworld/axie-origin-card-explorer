@@ -56,9 +56,34 @@
 .part-filter,
 .type-filter,
 .energy-cost-filter,
-.name-filter {
-  margin: 20px 20px;
+.name-filter,
+.ad-space {
+  margin: 20px;
   margin-bottom: 30px;
+}
+
+.ad-space {
+  padding: 15px;
+  border-style: dashed;
+  border-width: 1px;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+
+.ad-space-head-text {
+  color: var(--color-warning-3);
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.ad-space-body {
+  color: var(--color-default);
+  font-size: 14px;
+}
+
+.email {
+  color: var(--color-primary-3);
 }
 
 .filter-class-text,
@@ -133,6 +158,10 @@
 
 @media (max-width: 1110px) {
   .side-pane-container {
+    display: none;
+  }
+
+  .ad-space {
     display: none;
   }
 

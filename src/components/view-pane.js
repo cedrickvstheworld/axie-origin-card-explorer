@@ -4,10 +4,12 @@ import {filterCards, fitlerByClass} from '../utils.js/helpers';
 import {axieClass} from '../contents/constants';
 import SmallScreenFilter from './partials/small-screen-filter';
 import {FilterContext} from '../contexts/filter';
+import Footer from './partials/footer';
 
 const ViewPane = () => {
   const {filter} = useContext(FilterContext);
   const filteredCards = filterCards(filter);
+  // const filteredCards = [];
   const aquaticCards = fitlerByClass(axieClass.AQUATIC, filteredCards);
   const beastCards = fitlerByClass(axieClass.BEAST, filteredCards);
   const birdCards = fitlerByClass(axieClass.BIRD, filteredCards);
@@ -25,6 +27,8 @@ const ViewPane = () => {
       </div>
 
       <div className="card-viewer-container">
+        {!filteredCards.length ? <span className="no-result-text">heck! no result ...</span> : null}
+
         {aquaticCards.length ? 
           <ViewPaneClass 
             axieClass="Aquatic"
@@ -61,6 +65,7 @@ const ViewPane = () => {
             cardList={reptileCards}/> 
           : null}
       </div>
+      <Footer />
     </div>
   );
 };

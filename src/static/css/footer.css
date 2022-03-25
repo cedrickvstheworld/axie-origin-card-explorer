@@ -1,0 +1,19 @@
+@import './constants.css';
+
+.footer {
+  color: var(--color-default);
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.info-text {
+  color: var(--color-primary-3);
+}
+
+.footer-heart {
+  color: rgb(209, 74, 74);
+}

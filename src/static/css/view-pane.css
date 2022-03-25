@@ -8,6 +8,10 @@
   overflow-y: auto;
 }
 
+.no-result-text {
+  font-size: var(--font-size-h1);
+}
+
 .view-pane-head-content-group {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
