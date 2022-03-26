@@ -127,9 +127,9 @@
 }
 
 @media (max-width: 550px) {
-  /* .card-list-container {
-    grid-template-columns: repeat(1, 1fr);
-  } */
+  .card-container {
+    margin-bottom: 25px;
+  }
 
   .card-image {
     width: 160px;
