@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/axie-origin-card-explorer/static/css/main.d3061c38.css",
-    "main.js": "/axie-origin-card-explorer/static/js/main.fa63336d.js",
+    "main.js": "/axie-origin-card-explorer/static/js/main.9ec0928d.js",
     "static/js/787.26cbf462.chunk.js": "/axie-origin-card-explorer/static/js/787.26cbf462.chunk.js",
     "index.html": "/axie-origin-card-explorer/index.html",
     "main.d3061c38.css.map": "/axie-origin-card-explorer/static/css/main.d3061c38.css.map",
-    "main.fa63336d.js.map": "/axie-origin-card-explorer/static/js/main.fa63336d.js.map",
+    "main.9ec0928d.js.map": "/axie-origin-card-explorer/static/js/main.9ec0928d.js.map",
     "787.26cbf462.chunk.js.map": "/axie-origin-card-explorer/static/js/787.26cbf462.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d3061c38.css",
-    "static/js/main.fa63336d.js"
+    "static/js/main.9ec0928d.js"
   ]
 }
