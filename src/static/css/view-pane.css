@@ -127,12 +127,12 @@
 }
 
 @media (max-width: 550px) {
-  .card-list-container {
+  /* .card-list-container {
     grid-template-columns: repeat(1, 1fr);
-  }
+  } */
 
   .card-image {
-    width: 260px;
-    height: 420px;
+    width: 160px;
+    height: 240px;
   }
 }
