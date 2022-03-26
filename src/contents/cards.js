@@ -12,7 +12,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'anemone',
-    imgURL: '/cards/horn/anemonehorn.png',
+    imgURL: 'cards/horn/anemonehorn.png',
     class: axieClass.AQUATIC,
     part: parts.HORN,
     type: [type.ATTACK],
@@ -21,7 +21,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'antenna',
-    imgURL: '/cards/horn/antenna.png',
+    imgURL: 'cards/horn/antenna.png',
     class: axieClass.BUG,
     part: parts.HORN,
     type: [
@@ -33,7 +33,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'arco',
-    imgURL: '/cards/horn/arco.png',
+    imgURL: 'cards/horn/arco.png',
     class: axieClass.BEAST,
     part: parts.HORN,
     type: [type.ATTACK],
@@ -42,7 +42,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'babylonia',
-    imgURL: '/cards/horn/babylonia.png',
+    imgURL: 'cards/horn/babylonia.png',
     class: axieClass.AQUATIC,
     part: parts.HORN,
     type: [type.ATTACK],
@@ -51,7 +51,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'bamboo shoot',
-    imgURL: '/cards/horn/bambooshoot.png',
+    imgURL: 'cards/horn/bambooshoot.png',
     class: axieClass.PLANT,
     part: parts.HORN,
     type: [type.ATTACK],
@@ -60,7 +60,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'beech',
-    imgURL: '/cards/horn/beech.png',
+    imgURL: 'cards/horn/beech.png',
     class: axieClass.PLANT,
     part: parts.HORN,
     type: [type.ATTACK],
@@ -69,7 +69,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'bumpy',
-    imgURL: '/cards/horn/bumpy.png',
+    imgURL: 'cards/horn/bumpy.png',
     class: axieClass.REPTILE,
     part: parts.HORN,
     type: [
@@ -81,7 +81,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'cactus',
-    imgURL: '/cards/horn/cactus.png',
+    imgURL: 'cards/horn/cactus.png',
     class: axieClass.PLANT,
     part: parts.HORN,
     type: [type.ATTACK],
@@ -90,7 +90,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'caterpillars',
-    imgURL: '/cards/horn/caterpillars.png',
+    imgURL: 'cards/horn/caterpillars.png',
     class: axieClass.BUG,
     part: parts.HORN,
     type: [type.ATTACK],
@@ -99,7 +99,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'cerastes',
-    imgURL: '/cards/horn/cerastes.png',
+    imgURL: 'cards/horn/cerastes.png',
     class: axieClass.REPTILE,
     part: parts.HORN,
     type: [type.SECRET],
@@ -108,7 +108,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'clamshell',
-    imgURL: '/cards/horn/clamshell.png',
+    imgURL: 'cards/horn/clamshell.png',
     class: axieClass.AQUATIC,
     part: parts.HORN,
     type: [type.ATTACK],
@@ -117,7 +117,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'cuckoo',
-    imgURL: '/cards/horn/cuckoo.png',
+    imgURL: 'cards/horn/cuckoo.png',
     class: axieClass.BIRD,
     part: parts.HORN,
     type: [type.SKILL],
@@ -126,7 +126,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'dual blade',
-    imgURL: '/cards/horn/dualblade.png',
+    imgURL: 'cards/horn/dualblade.png',
     class: axieClass.BEAST,
     part: parts.HORN,
     type: [type.ATTACK],
@@ -135,7 +135,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'eggshell',
-    imgURL: '/cards/horn/eggshell.png',
+    imgURL: 'cards/horn/eggshell.png',
     class: axieClass.BIRD,
     part: parts.HORN,
     type: [type.ATTACK],
@@ -144,7 +144,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'feather spear',
-    imgURL: '/cards/horn/featherspear.png',
+    imgURL: 'cards/horn/featherspear.png',
     class: axieClass.BIRD,
     part: parts.HORN,
     type: [type.ATTACK],
@@ -153,7 +153,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'imp',
-    imgURL: '/cards/horn/imp.png',
+    imgURL: 'cards/horn/imp.png',
     class: axieClass.BEAST,
     part: parts.HORN,
     type: [type.ATTACK],
@@ -162,7 +162,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'incisor',
-    imgURL: '/cards/horn/incisor.png',
+    imgURL: 'cards/horn/incisor.png',
     class: axieClass.REPTILE,
     part: parts.HORN,
     type: [type.ATTACK],
@@ -171,7 +171,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'kestrel',
-    imgURL: '/cards/horn/kestrel.png',
+    imgURL: 'cards/horn/kestrel.png',
     class: axieClass.BIRD,
     part: parts.HORN,
     type: [type.ATTACK],
@@ -180,7 +180,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'lagging',
-    imgURL: '/cards/horn/lagging.png',
+    imgURL: 'cards/horn/lagging.png',
     class: axieClass.BUG,
     part: parts.HORN,
     type: [type.ATTACK],
@@ -189,7 +189,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'leaf bug',
-    imgURL: '/cards/horn/leafbughorn.png',
+    imgURL: 'cards/horn/leafbughorn.png',
     class: axieClass.BUG,
     part: parts.HORN,
     type: [type.SKILL],
@@ -198,7 +198,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'little branch',
-    imgURL: '/cards/horn/littlebranch.png',
+    imgURL: 'cards/horn/littlebranch.png',
     class: axieClass.BEAST,
     part: parts.HORN,
     type: [type.ATTACK],
@@ -207,7 +207,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'merry',
-    imgURL: '/cards/horn/merry.png',
+    imgURL: 'cards/horn/merry.png',
     class: axieClass.BEAST,
     part: parts.HORN,
     type: [type.SKILL],
@@ -216,7 +216,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'oranda',
-    imgURL: '/cards/horn/oranda.png',
+    imgURL: 'cards/horn/oranda.png',
     class: axieClass.AQUATIC,
     part: parts.HORN,
     type: [type.ATTACK],
@@ -225,7 +225,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'parasite',
-    imgURL: '/cards/horn/parasite.png',
+    imgURL: 'cards/horn/parasite.png',
     class: axieClass.BUG,
     part: parts.HORN,
     type: [type.ATTACK],
@@ -234,7 +234,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'pliers',
-    imgURL: '/cards/horn/pliers.png',
+    imgURL: 'cards/horn/pliers.png',
     class: axieClass.BUG,
     part: parts.HORN,
     type: [type.ATTACK],
@@ -243,7 +243,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'pocky',
-    imgURL: '/cards/horn/pocky.png',
+    imgURL: 'cards/horn/pocky.png',
     class: axieClass.BEAST,
     part: parts.HORN,
     type: [type.ATTACK],
@@ -252,7 +252,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'rose bud',
-    imgURL: '/cards/horn/rosebud.png',
+    imgURL: 'cards/horn/rosebud.png',
     class: axieClass.PLANT,
     part: parts.HORN,
     type: [type.SKILL],
@@ -261,7 +261,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'scaly spear',
-    imgURL: '/cards/horn/scalyspear.png',
+    imgURL: 'cards/horn/scalyspear.png',
     class: axieClass.REPTILE,
     part: parts.HORN,
     type: [type.ATTACK],
@@ -270,7 +270,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'scaly spoon',
-    imgURL: '/cards/horn/scalyspoon.png',
+    imgURL: 'cards/horn/scalyspoon.png',
     class: axieClass.REPTILE,
     part: parts.HORN,
     type: [type.SECRET],
@@ -279,7 +279,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'shoal star',
-    imgURL: '/cards/horn/shoalstar.png',
+    imgURL: 'cards/horn/shoalstar.png',
     class: axieClass.AQUATIC,
     part: parts.HORN,
     type: [type.ATTACK],
@@ -288,7 +288,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'strawberry shortcake',
-    imgURL: '/cards/horn/strawberryshortcake.png',
+    imgURL: 'cards/horn/strawberryshortcake.png',
     class: axieClass.PLANT,
     part: parts.HORN,
     type: [type.SKILL],
@@ -297,7 +297,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'teal shell',
-    imgURL: '/cards/horn/tealshell.png',
+    imgURL: 'cards/horn/tealshell.png',
     class: axieClass.AQUATIC,
     part: parts.HORN,
     type: [type.SKILL],
@@ -306,7 +306,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'trump',
-    imgURL: '/cards/horn/trump.png',
+    imgURL: 'cards/horn/trump.png',
     class: axieClass.BIRD,
     part: parts.HORN,
     type: [type.ATTACK],
@@ -315,7 +315,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'unko',
-    imgURL: '/cards/horn/unko.png',
+    imgURL: 'cards/horn/unko.png',
     class: axieClass.REPTILE,
     part: parts.HORN,
     type: [type.ATTACK],
@@ -324,7 +324,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'watermelon',
-    imgURL: '/cards/horn/watermelon.png',
+    imgURL: 'cards/horn/watermelon.png',
     class: axieClass.PLANT,
     part: parts.HORN,
     type: [type.ATTACK],
@@ -333,7 +333,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'wing horn',
-    imgURL: '/cards/horn/winghorn.png',
+    imgURL: 'cards/horn/winghorn.png',
     class: axieClass.BIRD,
     part: parts.HORN,
     type: [type.ATTACK],
@@ -346,7 +346,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'axie kiss',
-    imgURL: '/cards/mouth/axiekiss.png',
+    imgURL: 'cards/mouth/axiekiss.png',
     class: axieClass.BEAST,
     part: parts.MOUTH,
     type: [type.ATTACK],
@@ -355,7 +355,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'catfish',
-    imgURL: '/cards/mouth/catfish.png',
+    imgURL: 'cards/mouth/catfish.png',
     class: axieClass.AQUATIC,
     part: parts.MOUTH,
     type: [type.ATTACK],
@@ -364,7 +364,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'confident',
-    imgURL: '/cards/mouth/confident.png',
+    imgURL: 'cards/mouth/confident.png',
     class: axieClass.BEAST,
     part: parts.MOUTH,
     type: [type.SKILL],
@@ -373,7 +373,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'cute bunny',
-    imgURL: '/cards/mouth/cutebunny.png',
+    imgURL: 'cards/mouth/cutebunny.png',
     class: axieClass.BUG,
     part: parts.MOUTH,
     type: [type.ATTACK],
@@ -382,7 +382,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'doubletalk',
-    imgURL: '/cards/mouth/doubletalk.png',
+    imgURL: 'cards/mouth/doubletalk.png',
     class: axieClass.BIRD,
     part: parts.MOUTH,
     type: [type.ATTACK],
@@ -391,7 +391,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'goda',
-    imgURL: '/cards/mouth/goda.png',
+    imgURL: 'cards/mouth/goda.png',
     class: axieClass.BEAST,
     part: parts.MOUTH,
     type: [
@@ -403,7 +403,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'herbivore',
-    imgURL: '/cards/mouth/herbivore.png',
+    imgURL: 'cards/mouth/herbivore.png',
     class: axieClass.PLANT,
     part: parts.MOUTH,
     type: [type.ATTACK],
@@ -412,7 +412,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'hungry bird',
-    imgURL: '/cards/mouth/hungrybird.png',
+    imgURL: 'cards/mouth/hungrybird.png',
     class: axieClass.BIRD,
     part: parts.MOUTH,
     type: [type.ATTACK],
@@ -421,7 +421,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'kotaro',
-    imgURL: '/cards/mouth/kotaromouth.png',
+    imgURL: 'cards/mouth/kotaromouth.png',
     class: axieClass.REPTILE,
     part: parts.MOUTH,
     type: [type.ATTACK],
@@ -430,7 +430,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'lam',
-    imgURL: '/cards/mouth/lam.png',
+    imgURL: 'cards/mouth/lam.png',
     class: axieClass.AQUATIC,
     part: parts.MOUTH,
     type: [type.ATTACK],
@@ -439,7 +439,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'litte owl',
-    imgURL: '/cards/mouth/littleowlmouth.png',
+    imgURL: 'cards/mouth/littleowlmouth.png',
     class: axieClass.BIRD,
     part: parts.MOUTH,
     type: [type.ATTACK],
@@ -448,7 +448,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'mosquito',
-    imgURL: '/cards/mouth/mosquito.png',
+    imgURL: 'cards/mouth/mosquito.png',
     class: axieClass.BUG,
     part: parts.MOUTH,
     type: [type.ATTACK],
@@ -457,7 +457,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'nut cracker',
-    imgURL: '/cards/mouth/nutcrackermouth.png',
+    imgURL: 'cards/mouth/nutcrackermouth.png',
     class: axieClass.BEAST,
     part: parts.MOUTH,
     type: [type.ATTACK],
@@ -466,7 +466,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'peace maker',
-    imgURL: '/cards/mouth/peacemaker.png',
+    imgURL: 'cards/mouth/peacemaker.png',
     class: axieClass.BIRD,
     part: parts.MOUTH,
     type: [type.ATTACK],
@@ -475,7 +475,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'pincer',
-    imgURL: '/cards/mouth/pincer.png',
+    imgURL: 'cards/mouth/pincer.png',
     class: axieClass.BUG,
     part: parts.MOUTH,
     type: [type.ATTACK],
@@ -484,7 +484,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'piranha',
-    imgURL: '/cards/mouth/piranha.png',
+    imgURL: 'cards/mouth/piranha.png',
     class: axieClass.AQUATIC,
     part: parts.MOUTH,
     type: [type.ATTACK],
@@ -493,7 +493,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'razor bite',
-    imgURL: '/cards/mouth/razorbite.png',
+    imgURL: 'cards/mouth/razorbite.png',
     class: axieClass.REPTILE,
     part: parts.MOUTH,
     type: [type.ATTACK],
@@ -502,7 +502,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'risky fish',
-    imgURL: '/cards/mouth/riskyfish.png',
+    imgURL: 'cards/mouth/riskyfish.png',
     class: axieClass.AQUATIC,
     part: parts.MOUTH,
     type: [type.ATTACK],
@@ -511,7 +511,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'serious',
-    imgURL: '/cards/mouth/serious.png',
+    imgURL: 'cards/mouth/serious.png',
     class: axieClass.PLANT,
     part: parts.MOUTH,
     type: [type.ATTACK],
@@ -520,7 +520,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'silence whisper',
-    imgURL: '/cards/mouth/silencewhisper.png',
+    imgURL: 'cards/mouth/silencewhisper.png',
     class: axieClass.PLANT,
     part: parts.MOUTH,
     type: [type.SKILL],
@@ -529,7 +529,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'square teeth',
-    imgURL: '/cards/mouth/squareteeth.png',
+    imgURL: 'cards/mouth/squareteeth.png',
     class: axieClass.BUG,
     part: parts.MOUTH,
     type: [type.ATTACK],
@@ -538,7 +538,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'tiny turtle',
-    imgURL: '/cards/mouth/tinyturtle.png',
+    imgURL: 'cards/mouth/tinyturtle.png',
     class: axieClass.REPTILE,
     part: parts.MOUTH,
     type: [type.ATTACK],
@@ -547,7 +547,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'toothless bite',
-    imgURL: '/cards/mouth/toothlessbite.png',
+    imgURL: 'cards/mouth/toothlessbite.png',
     class: axieClass.REPTILE,
     part: parts.MOUTH,
     type: [type.ATTACK],
@@ -556,7 +556,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'zigzag',
-    imgURL: '/cards/mouth/zigzag.png',
+    imgURL: 'cards/mouth/zigzag.png',
     class: axieClass.PLANT,
     part: parts.MOUTH,
     type: [type.ATTACK],
@@ -569,7 +569,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'anemone',
-    imgURL: '/cards/back/anemone.png',
+    imgURL: 'cards/back/anemone.png',
     class: axieClass.AQUATIC,
     part: parts.BACK,
     type: [type.ATTACK],
@@ -578,7 +578,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'balloon',
-    imgURL: '/cards/back/balloon.png',
+    imgURL: 'cards/back/balloon.png',
     class: axieClass.BIRD,
     part: parts.BACK,
     type: [type.ATTACK],
@@ -587,7 +587,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'bidens',
-    imgURL: '/cards/back/bidens.png',
+    imgURL: 'cards/back/bidens.png',
     class: axieClass.PLANT,
     part: parts.BACK,
     type: [type.SKILL],
@@ -596,7 +596,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'blue moon',
-    imgURL: '/cards/back/bluemoon.png',
+    imgURL: 'cards/back/bluemoon.png',
     class: axieClass.AQUATIC,
     part: parts.BACK,
     type: [type.ATTACK],
@@ -605,7 +605,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'bone sail',
-    imgURL: '/cards/back/bonesail.png',
+    imgURL: 'cards/back/bonesail.png',
     class: axieClass.REPTILE,
     part: parts.BACK,
     type: [type.SECRET],
@@ -614,7 +614,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'buzz buzz',
-    imgURL: '/cards/back/buzzbuzz.png',
+    imgURL: 'cards/back/buzzbuzz.png',
     class: axieClass.BUG,
     part: parts.BACK,
     type: [type.ATTACK],
@@ -623,7 +623,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'croc',
-    imgURL: '/cards/back/croc.png',
+    imgURL: 'cards/back/croc.png',
     class: axieClass.REPTILE,
     part: parts.BACK,
     type: [type.SECRET],
@@ -632,7 +632,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'cupid',
-    imgURL: '/cards/back/cupid.png',
+    imgURL: 'cards/back/cupid.png',
     class: axieClass.BIRD,
     part: parts.BACK,
     type: [type.ATTACK],
@@ -641,7 +641,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'furball',
-    imgURL: '/cards/back/furball.png',
+    imgURL: 'cards/back/furball.png',
     class: axieClass.BEAST,
     part: parts.BACK,
     type: [type.ATTACK],
@@ -650,7 +650,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'garish worm',
-    imgURL: '/cards/back/garishworm.png',
+    imgURL: 'cards/back/garishworm.png',
     class: axieClass.BUG,
     part: parts.BACK,
     type: [type.ATTACK],
@@ -659,7 +659,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'goldfish',
-    imgURL: '/cards/back/goldfish.png',
+    imgURL: 'cards/back/goldfish.png',
     class: axieClass.AQUATIC,
     part: parts.BACK,
     type: [type.ATTACK],
@@ -668,7 +668,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'green thorns',
-    imgURL: '/cards/back/greenthorns.png',
+    imgURL: 'cards/back/greenthorns.png',
     class: axieClass.REPTILE,
     part: parts.BACK,
     type: [type.SKILL],
@@ -677,7 +677,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'hermit',
-    imgURL: '/cards/back/hermit.png',
+    imgURL: 'cards/back/hermit.png',
     class: axieClass.AQUATIC,
     part: parts.BACK,
     type: [type.SECRET],
@@ -686,7 +686,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'hero',
-    imgURL: '/cards/back/hero.png',
+    imgURL: 'cards/back/hero.png',
     class: axieClass.BEAST,
     part: parts.BACK,
     type: [type.ATTACK],
@@ -695,7 +695,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'indian star',
-    imgURL: '/cards/back/indianstar.png',
+    imgURL: 'cards/back/indianstar.png',
     class: axieClass.REPTILE,
     part: parts.BACK,
     type: [type.SECRET],
@@ -704,7 +704,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'jaguar',
-    imgURL: '/cards/back/jaguar.png',
+    imgURL: 'cards/back/jaguar.png',
     class: axieClass.BEAST,
     part: parts.BACK,
     type: [type.ATTACK],
@@ -713,7 +713,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'kingfisher',
-    imgURL: '/cards/back/kingfisher.png',
+    imgURL: 'cards/back/kingfisher.png',
     class: axieClass.BIRD,
     part: parts.BACK,
     type: [type.SECRET],
@@ -722,7 +722,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'mint',
-    imgURL: '/cards/back/mint.png',
+    imgURL: 'cards/back/mint.png',
     class: axieClass.PLANT,
     part: parts.BACK,
     type: [type.SKILL],
@@ -731,7 +731,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'perch',
-    imgURL: '/cards/back/perch.png',
+    imgURL: 'cards/back/perch.png',
     class: axieClass.AQUATIC,
     part: parts.BACK,
     type: [type.ATTACK],
@@ -740,7 +740,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'pigeon post',
-    imgURL: '/cards/back/pigeonpost.png',
+    imgURL: 'cards/back/pigeonpost.png',
     class: axieClass.BIRD,
     part: parts.BACK,
     type: [type.ATTACK],
@@ -749,7 +749,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'pumpkin',
-    imgURL: '/cards/back/pumpkin.png',
+    imgURL: 'cards/back/pumpkin.png',
     class: axieClass.PLANT,
     part: parts.BACK,
     type: [type.SECRET],
@@ -758,7 +758,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'raven',
-    imgURL: '/cards/back/raven.png',
+    imgURL: 'cards/back/raven.png',
     class: axieClass.BIRD,
     part: parts.BACK,
     type: [type.ATTACK],
@@ -767,7 +767,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'red ear',
-    imgURL: '/cards/back/redear.png',
+    imgURL: 'cards/back/redear.png',
     class: axieClass.REPTILE,
     part: parts.BACK,
     type: [type.SECRET],
@@ -776,7 +776,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'risky beast',
-    imgURL: '/cards/back/riskybeast.png',
+    imgURL: 'cards/back/riskybeast.png',
     class: axieClass.BEAST,
     part: parts.BACK,
     type: [type.ATTACK],
@@ -785,7 +785,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'ronin',
-    imgURL: '/cards/back/ronin.png',
+    imgURL: 'cards/back/ronin.png',
     class: axieClass.BEAST,
     part: parts.BACK,
     type: [type.ATTACK],
@@ -794,7 +794,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'sandal',
-    imgURL: '/cards/back/sandal.png',
+    imgURL: 'cards/back/sandal.png',
     class: axieClass.BUG,
     part: parts.BACK,
     type: [type.ATTACK],
@@ -803,7 +803,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'scarab',
-    imgURL: '/cards/back/scarab.png',
+    imgURL: 'cards/back/scarab.png',
     class: axieClass.BUG,
     part: parts.BACK,
     type: [type.ATTACK],
@@ -812,7 +812,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'shiitake',
-    imgURL: '/cards/back/shiitake.png',
+    imgURL: 'cards/back/shiitake.png',
     class: axieClass.PLANT,
     part: parts.BACK,
     type: [type.SKILL],
@@ -821,7 +821,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'snail shell',
-    imgURL: '/cards/back/snailshell.png',
+    imgURL: 'cards/back/snailshell.png',
     class: axieClass.BUG,
     part: parts.BACK,
     type: [type.SECRET],
@@ -830,7 +830,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'spiky wing',
-    imgURL: '/cards/back/spikywing.png',
+    imgURL: 'cards/back/spikywing.png',
     class: axieClass.BUG,
     part: parts.BACK,
     type: [type.ATTACK],
@@ -839,7 +839,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'sponge',
-    imgURL: '/cards/back/sponge.png',
+    imgURL: 'cards/back/sponge.png',
     class: axieClass.AQUATIC,
     part: parts.BACK,
     type: [type.SECRET],
@@ -848,7 +848,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'timber',
-    imgURL: '/cards/back/timber.png',
+    imgURL: 'cards/back/timber.png',
     class: axieClass.BEAST,
     part: parts.BACK,
     type: [type.SECRET],
@@ -857,7 +857,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'tri feather',
-    imgURL: '/cards/back/trifeather.png',
+    imgURL: 'cards/back/trifeather.png',
     class: axieClass.BIRD,
     part: parts.BACK,
     type: [type.ATTACK],
@@ -866,7 +866,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'tri spikes',
-    imgURL: '/cards/back/trispikes.png',
+    imgURL: 'cards/back/trispikes.png',
     class: axieClass.REPTILE,
     part: parts.BACK,
     type: [type.ATTACK],
@@ -875,7 +875,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'turnip',
-    imgURL: '/cards/back/turnip.png',
+    imgURL: 'cards/back/turnip.png',
     class: axieClass.PLANT,
     part: parts.BACK,
     type: [type.ATTACK],
@@ -884,7 +884,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'watering can',
-    imgURL: '/cards/back/wateringcan.png',
+    imgURL: 'cards/back/wateringcan.png',
     class: axieClass.PLANT,
     part: parts.BACK,
     type: [type.SECRET],
@@ -897,7 +897,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'ant',
-    imgURL: '/cards/tail/ant.png',
+    imgURL: 'cards/tail/ant.png',
     class: axieClass.BUG,
     part: parts.TAIL,
     type: [type.SKILL],
@@ -906,7 +906,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'carrot',
-    imgURL: '/cards/tail/carrot.png',
+    imgURL: 'cards/tail/carrot.png',
     class: axieClass.PLANT,
     part: parts.TAIL,
     type: [type.ATTACK],
@@ -915,7 +915,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'cattail;',
-    imgURL: '/cards/tail/cattail.png',
+    imgURL: 'cards/tail/cattail.png',
     class: axieClass.PLANT,
     part: parts.TAIL,
     type: [type.ATTACK],
@@ -924,7 +924,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'cloud',
-    imgURL: '/cards/tail/cloud.png',
+    imgURL: 'cards/tail/cloud.png',
     class: axieClass.BIRD,
     part: parts.TAIL,
     type: [type.ATTACK],
@@ -933,7 +933,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'cottontail',
-    imgURL: '/cards/tail/cottontail.png',
+    imgURL: 'cards/tail/cottontail.png',
     class: axieClass.BEAST,
     part: parts.TAIL,
     type: [
@@ -945,7 +945,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'feather fan',
-    imgURL: '/cards/tail/featherfan.png',
+    imgURL: 'cards/tail/featherfan.png',
     class: axieClass.BIRD,
     part: parts.TAIL,
     type: [type.ATTACK],
@@ -954,7 +954,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'fish snack',
-    imgURL: '/cards/tail/fishsnack.png',
+    imgURL: 'cards/tail/fishsnack.png',
     class: axieClass.BUG,
     part: parts.TAIL,
     type: [type.SECRET],
@@ -963,7 +963,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'gerbil',
-    imgURL: '/cards/tail/gerbil.png',
+    imgURL: 'cards/tail/gerbil.png',
     class: axieClass.BEAST,
     part: parts.TAIL,
     type: [type.ATTACK],
@@ -972,7 +972,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'gila',
-    imgURL: '/cards/tail/gila.png',
+    imgURL: 'cards/tail/gila.png',
     class: axieClass.REPTILE,
     part: parts.TAIL,
     type: [type.ATTACK],
@@ -981,7 +981,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'granma\'s fan',
-    imgURL: '/cards/tail/granmasfan.png',
+    imgURL: 'cards/tail/granmasfan.png',
     class: axieClass.BIRD,
     part: parts.TAIL,
     type: [
@@ -993,7 +993,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'grass snake',
-    imgURL: '/cards/tail/grasssnake.png',
+    imgURL: 'cards/tail/grasssnake.png',
     class: axieClass.REPTILE,
     part: parts.TAIL,
     type: [type.ATTACK],
@@ -1002,7 +1002,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'gravel ant',
-    imgURL: '/cards/tail/gravelant.png',
+    imgURL: 'cards/tail/gravelant.png',
     class: axieClass.BUG,
     part: parts.TAIL,
     type: [type.SECRET],
@@ -1011,7 +1011,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'hare',
-    imgURL: '/cards/tail/hare.png',
+    imgURL: 'cards/tail/hare.png',
     class: axieClass.BEAST,
     part: parts.TAIL,
     type: [type.ATTACK],
@@ -1020,7 +1020,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'hatsune',
-    imgURL: '/cards/tail/hatsune.png',
+    imgURL: 'cards/tail/hatsune.png',
     class: axieClass.PLANT,
     part: parts.TAIL,
     type: [type.SECRET],
@@ -1029,7 +1029,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'hotbutt',
-    imgURL: '/cards/tail/hotbutt.png',
+    imgURL: 'cards/tail/hotbutt.png',
     class: axieClass.PLANT,
     part: parts.TAIL,
     type: [type.SKILL],
@@ -1038,7 +1038,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'iguana',
-    imgURL: '/cards/tail/iguana.png',
+    imgURL: 'cards/tail/iguana.png',
     class: axieClass.REPTILE,
     part: parts.TAIL,
     type: [type.ATTACK],
@@ -1047,7 +1047,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'koi',
-    imgURL: '/cards/tail/koi.png',
+    imgURL: 'cards/tail/koi.png',
     class: axieClass.AQUATIC,
     part: parts.TAIL,
     type: [type.ATTACK],
@@ -1056,7 +1056,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'navaga',
-    imgURL: '/cards/tail/navaga.png',
+    imgURL: 'cards/tail/navaga.png',
     class: axieClass.AQUATIC,
     part: parts.TAIL,
     type: [type.ATTACK],
@@ -1065,7 +1065,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'nimo',
-    imgURL: '/cards/tail/nimo.png',
+    imgURL: 'cards/tail/nimo.png',
     class: axieClass.AQUATIC,
     part: parts.TAIL,
     type: [
@@ -1077,7 +1077,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'nut cracker',
-    imgURL: '/cards/tail/nutcrackertail.png',
+    imgURL: 'cards/tail/nutcrackertail.png',
     class: axieClass.BEAST,
     part: parts.TAIL,
     type: [type.ATTACK],
@@ -1086,7 +1086,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'post fight',
-    imgURL: '/cards/tail/postfight.png',
+    imgURL: 'cards/tail/postfight.png',
     class: axieClass.BIRD,
     part: parts.TAIL,
     type: [type.ATTACK],
@@ -1095,7 +1095,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'potato leaf',
-    imgURL: '/cards/tail/potatoleaf.png',
+    imgURL: 'cards/tail/potatoleaf.png',
     class: axieClass.PLANT,
     part: parts.TAIL,
     type: [type.ATTACK],
@@ -1104,7 +1104,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'pupae',
-    imgURL: '/cards/tail/pupae.png',
+    imgURL: 'cards/tail/pupae.png',
     class: axieClass.BUG,
     part: parts.TAIL,
     type: [type.SECRET],
@@ -1113,7 +1113,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'ranchu',
-    imgURL: '/cards/tail/ranchu.png',
+    imgURL: 'cards/tail/ranchu.png',
     class: axieClass.AQUATIC,
     part: parts.TAIL,
     type: [type.ATTACK],
@@ -1122,7 +1122,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'rice',
-    imgURL: '/cards/tail/rice.png',
+    imgURL: 'cards/tail/rice.png',
     class: axieClass.BEAST,
     part: parts.TAIL,
     type: [type.ATTACK],
@@ -1131,7 +1131,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'shiba',
-    imgURL: '/cards/tail/shiba.png',
+    imgURL: 'cards/tail/shiba.png',
     class: axieClass.BEAST,
     part: parts.TAIL,
     type: [type.ATTACK],
@@ -1140,7 +1140,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'shrimp',
-    imgURL: '/cards/tail/shrimp.png',
+    imgURL: 'cards/tail/shrimp.png',
     class: axieClass.AQUATIC,
     part: parts.TAIL,
     type: [type.ATTACK],
@@ -1149,7 +1149,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'snake jar',
-    imgURL: '/cards/tail/snakejar.png',
+    imgURL: 'cards/tail/snakejar.png',
     class: axieClass.REPTILE,
     part: parts.TAIL,
     type: [type.SECRET],
@@ -1158,7 +1158,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'swallow',
-    imgURL: '/cards/tail/swallow.png',
+    imgURL: 'cards/tail/swallow.png',
     class: axieClass.BIRD,
     part: parts.TAIL,
     type: [type.ATTACK],
@@ -1167,7 +1167,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'tadpole',
-    imgURL: '/cards/tail/tadpole.png',
+    imgURL: 'cards/tail/tadpole.png',
     class: axieClass.AQUATIC,
     part: parts.TAIL,
     type: [type.ATTACK],
@@ -1176,7 +1176,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'the last one',
-    imgURL: '/cards/tail/thelastone.png',
+    imgURL: 'cards/tail/thelastone.png',
     class: axieClass.BIRD,
     part: parts.TAIL,
     type: [type.ATTACK],
@@ -1185,7 +1185,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'thorny caterpillar',
-    imgURL: '/cards/tail/thornycaterpillar.png',
+    imgURL: 'cards/tail/thornycaterpillar.png',
     class: axieClass.BUG,
     part: parts.TAIL,
     type: [type.ATTACK],
@@ -1194,7 +1194,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'tiny dino',
-    imgURL: '/cards/tail/tinydino.png',
+    imgURL: 'cards/tail/tinydino.png',
     class: axieClass.REPTILE,
     part: parts.TAIL,
     type: [
@@ -1206,7 +1206,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'twin tail',
-    imgURL: '/cards/tail/twintail.png',
+    imgURL: 'cards/tail/twintail.png',
     class: axieClass.BUG,
     part: parts.TAIL,
     type: [type.ATTACK],
@@ -1215,7 +1215,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'wall gecko',
-    imgURL: '/cards/tail/wallgecko.png',
+    imgURL: 'cards/tail/wallgecko.png',
     class: axieClass.REPTILE,
     part: parts.TAIL,
     type: [type.ATTACK],
@@ -1224,7 +1224,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'yam',
-    imgURL: '/cards/tail/yam.png',
+    imgURL: 'cards/tail/yam.png',
     class: axieClass.PLANT,
     part: parts.TAIL,
     type: [type.ATTACK],
@@ -1237,7 +1237,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'beetle spike',
-    imgURL: '/cards/ear/beetlespike.png',
+    imgURL: 'cards/ear/beetlespike.png',
     class: axieClass.BUG,
     part: parts.EAR,
     type: [type.ATTACK],
@@ -1246,7 +1246,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'belieber',
-    imgURL: '/cards/ear/belieber.png',
+    imgURL: 'cards/ear/belieber.png',
     class: axieClass.BEAST,
     part: parts.EAR,
     type: [type.ATTACK],
@@ -1255,7 +1255,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'bubblemaker',
-    imgURL: '/cards/ear/bubblemaker.png',
+    imgURL: 'cards/ear/bubblemaker.png',
     class: axieClass.AQUATIC,
     part: parts.EAR,
     type: [type.SKILL],
@@ -1264,7 +1264,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'clover',
-    imgURL: '/cards/ear/clover.png',
+    imgURL: 'cards/ear/clover.png',
     class: axieClass.PLANT,
     part: parts.EAR,
     type: [type.SKILL],
@@ -1273,7 +1273,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'curly',
-    imgURL: '/cards/ear/curly.png',
+    imgURL: 'cards/ear/curly.png',
     class: axieClass.BIRD,
     part: parts.EAR,
     type: [type.ATTACK],
@@ -1282,7 +1282,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'curved spine',
-    imgURL: '/cards/ear/curvedspine.png',
+    imgURL: 'cards/ear/curvedspine.png',
     class: axieClass.REPTILE,
     part: parts.EAR,
     type: [type.SECRET],
@@ -1291,7 +1291,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'ear breathing',
-    imgURL: '/cards/ear/earbreathing.png',
+    imgURL: 'cards/ear/earbreathing.png',
     class: axieClass.BUG,
     part: parts.EAR,
     type: [type.ATTACK],
@@ -1300,7 +1300,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'early bird',
-    imgURL: '/cards/ear/earlybird.png',
+    imgURL: 'cards/ear/earlybird.png',
     class: axieClass.BIRD,
     part: parts.EAR,
     type: [type.ATTACK],
@@ -1309,7 +1309,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'earwing',
-    imgURL: '/cards/ear/earwing.png',
+    imgURL: 'cards/ear/earwing.png',
     class: axieClass.BUG,
     part: parts.EAR,
     type: [type.ATTACK],
@@ -1318,7 +1318,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'friezard',
-    imgURL: '/cards/ear/friezard.png',
+    imgURL: 'cards/ear/friezard.png',
     class: axieClass.REPTILE,
     part: parts.EAR,
     type: [type.SKILL],
@@ -1327,7 +1327,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'gill',
-    imgURL: '/cards/ear/gill.png',
+    imgURL: 'cards/ear/gill.png',
     class: axieClass.AQUATIC,
     part: parts.EAR,
     type: [type.ATTACK],
@@ -1336,7 +1336,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'hollow',
-    imgURL: '/cards/ear/hollow.png',
+    imgURL: 'cards/ear/hollow.png',
     class: axieClass.PLANT,
     part: parts.EAR,
     type: [type.SKILL],
@@ -1345,7 +1345,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'inkling',
-    imgURL: '/cards/ear/inkling.png',
+    imgURL: 'cards/ear/inkling.png',
     class: axieClass.AQUATIC,
     part: parts.EAR,
     type: [type.ATTACK],
@@ -1354,7 +1354,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'innocent lamb',
-    imgURL: '/cards/ear/innocentlamb.png',
+    imgURL: 'cards/ear/innocentlamb.png',
     class: axieClass.BEAST,
     part: parts.EAR,
     type: [
@@ -1366,7 +1366,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'larva',
-    imgURL: '/cards/ear/larva.png',
+    imgURL: 'cards/ear/larva.png',
     class: axieClass.BUG,
     part: parts.EAR,
     type: [type.SKILL],
@@ -1375,7 +1375,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'leaf bug',
-    imgURL: '/cards/ear/leafbugear.png',
+    imgURL: 'cards/ear/leafbugear.png',
     class: axieClass.BUG,
     part: parts.EAR,
     type: [type.SKILL],
@@ -1384,7 +1384,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'leafy',
-    imgURL: '/cards/ear/leafy.png',
+    imgURL: 'cards/ear/leafy.png',
     class: axieClass.PLANT,
     part: parts.EAR,
     type: [type.ATTACK],
@@ -1393,7 +1393,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'little owl',
-    imgURL: '/cards/ear/littleowlear.png',
+    imgURL: 'cards/ear/littleowlear.png',
     class: axieClass.BIRD,
     part: parts.EAR,
     type: [type.ATTACK],
@@ -1402,7 +1402,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'lotus',
-    imgURL: '/cards/ear/lotus.png',
+    imgURL: 'cards/ear/lotus.png',
     class: axieClass.PLANT,
     part: parts.EAR,
     type: [type.SKILL],
@@ -1411,7 +1411,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'nimo',
-    imgURL: '/cards/ear/nimoear.png',
+    imgURL: 'cards/ear/nimoear.png',
     class: axieClass.AQUATIC,
     part: parts.EAR,
     type: [type.SKILL],
@@ -1420,7 +1420,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'nut craker',
-    imgURL: '/cards/ear/nutcrackerear.png',
+    imgURL: 'cards/ear/nutcrackerear.png',
     class: axieClass.BEAST,
     part: parts.EAR,
     type: [type.ATTACK],
@@ -1429,7 +1429,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'nyan',
-    imgURL: '/cards/ear/nyan.png',
+    imgURL: 'cards/ear/nyan.png',
     class: axieClass.BEAST,
     part: parts.EAR,
     type: [type.ATTACK],
@@ -1438,7 +1438,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'pagona',
-    imgURL: '/cards/ear/pagona.png',
+    imgURL: 'cards/ear/pagona.png',
     class: axieClass.REPTILE,
     part: parts.EAR,
     type: [type.ATTACK],
@@ -1447,7 +1447,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'peace maker',
-    imgURL: '/cards/ear/peacemakerear.png',
+    imgURL: 'cards/ear/peacemakerear.png',
     class: axieClass.BIRD,
     part: parts.EAR,
     type: [type.ATTACK],
@@ -1456,7 +1456,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'pink cheek',
-    imgURL: '/cards/ear/pinkcheek.png',
+    imgURL: 'cards/ear/pinkcheek.png',
     class: axieClass.BIRD,
     part: parts.EAR,
     type: [
@@ -1468,7 +1468,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'puppy',
-    imgURL: '/cards/ear/puppy.png',
+    imgURL: 'cards/ear/puppy.png',
     class: axieClass.BEAST,
     part: parts.EAR,
     type: [type.SKILL],
@@ -1477,7 +1477,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'risky bird',
-    imgURL: '/cards/ear/riskybird.png',
+    imgURL: 'cards/ear/riskybird.png',
     class: axieClass.BIRD,
     part: parts.EAR,
     type: [type.ATTACK],
@@ -1486,7 +1486,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'rosa',
-    imgURL: '/cards/ear/rosa.png',
+    imgURL: 'cards/ear/rosa.png',
     class: axieClass.PLANT,
     part: parts.EAR,
     type: [
@@ -1499,7 +1499,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'sakura',
-    imgURL: '/cards/ear/sakura.png',
+    imgURL: 'cards/ear/sakura.png',
     class: axieClass.PLANT,
     part: parts.EAR,
     type: [type.POWER],
@@ -1508,7 +1508,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'seaslug',
-    imgURL: '/cards/ear/seaslug.png',
+    imgURL: 'cards/ear/seaslug.png',
     class: axieClass.AQUATIC,
     part: parts.EAR,
     type: [type.ATTACK],
@@ -1517,7 +1517,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'sidebarb',
-    imgURL: '/cards/ear/sidebarb.png',
+    imgURL: 'cards/ear/sidebarb.png',
     class: axieClass.REPTILE,
     part: parts.EAR,
     type: [type.ATTACK],
@@ -1526,7 +1526,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'small frill',
-    imgURL: '/cards/ear/smallfrill.png',
+    imgURL: 'cards/ear/smallfrill.png',
     class: axieClass.REPTILE,
     part: parts.EAR,
     type: [type.SKILL],
@@ -1535,7 +1535,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'swirl',
-    imgURL: '/cards/ear/swirl.png',
+    imgURL: 'cards/ear/swirl.png',
     class: axieClass.REPTILE,
     part: parts.EAR,
     type: [type.SKILL],
@@ -1544,7 +1544,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'tassels',
-    imgURL: '/cards/ear/tassels.png',
+    imgURL: 'cards/ear/tassels.png',
     class: axieClass.BUG,
     part: parts.EAR,
     type: [type.SKILL],
@@ -1553,7 +1553,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'tiny fan',
-    imgURL: '/cards/ear/tinyfan.png',
+    imgURL: 'cards/ear/tinyfan.png',
     class: axieClass.AQUATIC,
     part: parts.EAR,
     type: [type.SKILL],
@@ -1562,7 +1562,7 @@ export const cards = [
   {
     id: uuidv4(),
     name: 'zen',
-    imgURL: '/cards/ear/zen.png',
+    imgURL: 'cards/ear/zen.png',
     class: axieClass.BEAST,
     part: parts.EAR,
     type: [type.SKILL],
