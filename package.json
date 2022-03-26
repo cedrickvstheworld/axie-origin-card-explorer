@@ -1,6 +1,5 @@
 {
   "name": "axie-origin-card-explorer",
-  "homepage": "https://cedrickvstheworld.github.io/axie-origin-card-explorer/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
