@@ -1,9 +1,11 @@
 {
   "name": "axie-origin-card-explorer",
-  "homepage": "https://cedrickvstheworld.github.io/axie-origin-card-explorer/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.28",
+    "@fortawesome/free-solid-svg-icons": "^5.13.0",
+    "@fortawesome/react-fontawesome": "^0.1.9",
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",

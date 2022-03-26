@@ -1,6 +1,8 @@
 import {useContext} from "react";
 import {filterActions} from '../../reducers/filter';
 import {FilterContext} from '../../contexts/filter';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import {faTimes} from '@fortawesome/free-solid-svg-icons';
 
 
 const SidePaneHeader = () => {
@@ -72,7 +74,7 @@ const SidePaneHeader = () => {
   return (
     <div className="filter-head">
       <div className="small-screen-close-button-container">
-        <i onClick={hideSmallScreenFilter} className="fa-solid fa-xmark fa-2x"></i>
+        <FontAwesomeIcon onClick={hideSmallScreenFilter} icon={faTimes} size="2x" />
       </div>
       <div className="row">
         <div className="col s3 filter-head-items">

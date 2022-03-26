@@ -161,6 +161,10 @@
     display: none;
   }
 
+  .filter-dividers {
+    display: none;
+  }
+
   .ad-space {
     display: none;
   }

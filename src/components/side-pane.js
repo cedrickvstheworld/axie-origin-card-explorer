@@ -14,16 +14,24 @@ const SidePane = () => {
       <HorizontalDivider />
 
       <ClassFilter />
-      <HorizontalDivider />
+      <div className="filter-dividers">
+        <HorizontalDivider />
+      </div>
 
       <PartFilter />
-      <HorizontalDivider />
+      <div className="filter-dividers">
+        <HorizontalDivider />
+      </div>
 
       <TypeFilter />
-      <HorizontalDivider />
+      <div className="filter-dividers">
+        <HorizontalDivider />
+      </div>
 
       <EnergyCostFilter />
-      <HorizontalDivider />
+      <div className="filter-dividers">
+        <HorizontalDivider />
+      </div>
 
       <NameFilter />
 
