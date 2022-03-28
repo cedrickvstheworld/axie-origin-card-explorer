@@ -128,19 +128,19 @@ const ClassFilter = () => {
           <button
             onClick={(e) => buttonToggle(e, isBeastSelected, setIsBeastSelected)}
             className="class-filter-button class-filter-button-unselected">
-              <FontAwesomeIcon className="beast-color" icon={faPaw} />
+              <FontAwesomeIcon className="class-filter-button-icon beast-color" icon={faPaw} />
               &nbsp;Beast
           </button>
           <button
             onClick={(e) => buttonToggle(e, isAquaticSelected, setIsAquaticSelected)}
             className="class-filter-button class-filter-button-unselected">
-              <FontAwesomeIcon className="aqua-color" icon={faFish} />
+              <FontAwesomeIcon className="class-filter-button-icon aqua-color" icon={faFish} />
               &nbsp;Aquatic
           </button>
           <button
             onClick={(e) => buttonToggle(e, isPlantSelected, setIsPlantSelected)}
             className="class-filter-button class-filter-button-unselected">
-              <FontAwesomeIcon className="plant-color" icon={faSeedling} />
+              <FontAwesomeIcon className="class-filter-button-icon plant-color" icon={faSeedling} />
               &nbsp;Plant
           </button>
         </div>
@@ -150,19 +150,19 @@ const ClassFilter = () => {
           <button 
             onClick={(e) => buttonToggle(e, isBugSelected, setIsBugSelected)}
             className="class-filter-button class-filter-button-unselected">
-              <FontAwesomeIcon className="bug-color" icon={faBug} />
+              <FontAwesomeIcon className="class-filter-button-icon bug-color" icon={faBug} />
               &nbsp;Bug
           </button>
           <button
             onClick={(e) => buttonToggle(e, isBirdSelected, setIsBirdSelected)}
             className="class-filter-button class-filter-button-unselected">
-              <FontAwesomeIcon className="bird-color" icon={faFeatherAlt} />
+              <FontAwesomeIcon className="class-filter-button-icon bird-color" icon={faFeatherAlt} />
               &nbsp;Bird
           </button>
           <button
             onClick={(e) => buttonToggle(e, isReptileSelected, setIsReptileSelected)}
             className="class-filter-button class-filter-button-unselected">
-              <FontAwesomeIcon className="reptile-color" icon={faPoop} />
+              <FontAwesomeIcon className="class-filter-button-icon reptile-color" icon={faPoop} />
               &nbsp;Reptile
           </button>
         </div>
