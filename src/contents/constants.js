@@ -13,6 +13,7 @@ export const parts = {
   MOUTH: 'MOUTH',
   TAIL: 'TAIL',
   EAR: 'EAR',
+  EYE: 'EYE',
 };
 
 export const type = {
