@@ -3,7 +3,10 @@ import {
   parts,
   type,
 } from './constants';
-import {v4 as uuidv4} from 'uuid'
+import {v4 as uuidv4} from 'uuid';
+import {statusEffects} from '../contents/status-effects';
+import {curses} from '../contents/curses';
+import {tools} from '../contents/tools';
 
 export const cards = [
   /**
@@ -17,6 +20,15 @@ export const cards = [
     part: parts.HORN,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -29,6 +41,15 @@ export const cards = [
       type.BANISH,
     ],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -38,6 +59,15 @@ export const cards = [
     part: parts.HORN,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -47,6 +77,17 @@ export const cards = [
     part: parts.HORN,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [
+          statusEffects.debuffs.weak,
+        ],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -56,6 +97,15 @@ export const cards = [
     part: parts.HORN,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -65,6 +115,15 @@ export const cards = [
     part: parts.HORN,
     type: [type.ATTACK],
     energyCost: 2,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -77,6 +136,15 @@ export const cards = [
       type.INNATE,
     ],
     energyCost: 2,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -86,6 +154,15 @@ export const cards = [
     part: parts.HORN,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -95,6 +172,17 @@ export const cards = [
     part: parts.HORN,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [
+          statusEffects.debuffs.fear,
+        ],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -104,6 +192,15 @@ export const cards = [
     part: parts.HORN,
     type: [type.SECRET],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -113,6 +210,17 @@ export const cards = [
     part: parts.HORN,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [
+          statusEffects.buffs.damage_boost,
+        ],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -122,6 +230,17 @@ export const cards = [
     part: parts.HORN,
     type: [type.SKILL],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [
+          statusEffects.debuffs.sleep,
+        ],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -131,6 +250,17 @@ export const cards = [
     part: parts.HORN,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [
+          statusEffects.debuffs.fragile,
+        ],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -140,6 +270,17 @@ export const cards = [
     part: parts.HORN,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [
+          statusEffects.neutrals.taunt,
+        ],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -149,6 +290,15 @@ export const cards = [
     part: parts.HORN,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -158,6 +308,17 @@ export const cards = [
     part: parts.HORN,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [
+          statusEffects.buffs.fury,
+        ],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -167,6 +328,17 @@ export const cards = [
     part: parts.HORN,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [
+          statusEffects.debuffs.bleed,
+        ],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -176,6 +348,17 @@ export const cards = [
     part: parts.HORN,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [
+          statusEffects.debuffs.disarmed,
+        ],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -185,6 +368,17 @@ export const cards = [
     part: parts.HORN,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [
+          statusEffects.debuffs.weak,
+        ],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -194,6 +388,15 @@ export const cards = [
     part: parts.HORN,
     type: [type.SKILL],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -203,6 +406,17 @@ export const cards = [
     part: parts.HORN,
     type: [type.ATTACK],
     energyCost: 2,
+    metaData: {
+      statusEffects: {
+        buffs: [
+          statusEffects.buffs.rage,
+        ],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -212,6 +426,15 @@ export const cards = [
     part: parts.HORN,
     type: [type.SKILL],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -221,6 +444,15 @@ export const cards = [
     part: parts.HORN,
     type: [type.ATTACK],
     energyCost: 2,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -230,6 +462,15 @@ export const cards = [
     part: parts.HORN,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -239,6 +480,15 @@ export const cards = [
     part: parts.HORN,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -248,6 +498,17 @@ export const cards = [
     part: parts.HORN,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [
+          statusEffects.neutrals.taunt,
+        ],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -257,6 +518,15 @@ export const cards = [
     part: parts.HORN,
     type: [type.SKILL],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -266,6 +536,15 @@ export const cards = [
     part: parts.HORN,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -275,6 +554,15 @@ export const cards = [
     part: parts.HORN,
     type: [type.SECRET],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -284,6 +572,15 @@ export const cards = [
     part: parts.HORN,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -293,6 +590,17 @@ export const cards = [
     part: parts.HORN,
     type: [type.SKILL],
     energyCost: 2,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [
+        tools.strawberry,
+      ],
+    },
   },
   {
     id: uuidv4(),
@@ -302,6 +610,15 @@ export const cards = [
     part: parts.HORN,
     type: [type.SKILL],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -311,6 +628,15 @@ export const cards = [
     part: parts.HORN,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -320,6 +646,17 @@ export const cards = [
     part: parts.HORN,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [
+        curses.goo,
+      ],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -329,6 +666,15 @@ export const cards = [
     part: parts.HORN,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -338,6 +684,15 @@ export const cards = [
     part: parts.HORN,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
 
   /**
@@ -351,6 +706,17 @@ export const cards = [
     part: parts.MOUTH,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [
+          statusEffects.debuffs.death_mark,
+        ],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -360,6 +726,15 @@ export const cards = [
     part: parts.MOUTH,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -369,6 +744,17 @@ export const cards = [
     part: parts.MOUTH,
     type: [type.SKILL],
     energyCost: 0,
+    metaData: {
+      statusEffects: {
+        buffs: [
+          statusEffects.buffs.rage,
+        ],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -378,6 +764,17 @@ export const cards = [
     part: parts.MOUTH,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [
+          statusEffects.debuffs.fear,
+        ],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -387,6 +784,17 @@ export const cards = [
     part: parts.MOUTH,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [
+          statusEffects.debuffs.sleep,
+        ],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -399,6 +807,17 @@ export const cards = [
       type.BANISH,
     ],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [
+        curses.void,
+      ],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -408,6 +827,15 @@ export const cards = [
     part: parts.MOUTH,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -417,6 +845,15 @@ export const cards = [
     part: parts.MOUTH,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -426,6 +863,15 @@ export const cards = [
     part: parts.MOUTH,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -435,6 +881,15 @@ export const cards = [
     part: parts.MOUTH,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -444,6 +899,15 @@ export const cards = [
     part: parts.MOUTH,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -453,6 +917,15 @@ export const cards = [
     part: parts.MOUTH,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -462,6 +935,15 @@ export const cards = [
     part: parts.MOUTH,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -471,6 +953,17 @@ export const cards = [
     part: parts.MOUTH,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [
+          statusEffects.debuffs.weak,
+        ],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -480,6 +973,17 @@ export const cards = [
     part: parts.MOUTH,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [
+          statusEffects.debuffs.bleed,
+        ],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -489,6 +993,17 @@ export const cards = [
     part: parts.MOUTH,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [
+          statusEffects.debuffs.bleed,
+        ],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -498,6 +1013,15 @@ export const cards = [
     part: parts.MOUTH,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -507,6 +1031,17 @@ export const cards = [
     part: parts.MOUTH,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [
+          statusEffects.debuffs.weak,
+        ],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -516,6 +1051,15 @@ export const cards = [
     part: parts.MOUTH,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -525,6 +1069,15 @@ export const cards = [
     part: parts.MOUTH,
     type: [type.SKILL],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -534,6 +1087,15 @@ export const cards = [
     part: parts.MOUTH,
     type: [type.ATTACK],
     energyCost: 0,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -543,6 +1105,17 @@ export const cards = [
     part: parts.MOUTH,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [
+          statusEffects.debuffs.stunned,
+        ],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -552,6 +1125,15 @@ export const cards = [
     part: parts.MOUTH,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -561,6 +1143,15 @@ export const cards = [
     part: parts.MOUTH,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
 
   /**
@@ -574,6 +1165,15 @@ export const cards = [
     part: parts.BACK,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -583,6 +1183,17 @@ export const cards = [
     part: parts.BACK,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [
+          statusEffects.debuffs.fear,
+        ],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -592,6 +1203,15 @@ export const cards = [
     part: parts.BACK,
     type: [type.SKILL],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -601,6 +1221,15 @@ export const cards = [
     part: parts.BACK,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -610,6 +1239,15 @@ export const cards = [
     part: parts.BACK,
     type: [type.SECRET],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -619,6 +1257,17 @@ export const cards = [
     part: parts.BACK,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [
+        curses.daze,
+      ],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -628,6 +1277,17 @@ export const cards = [
     part: parts.BACK,
     type: [type.SECRET],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [
+          statusEffects.debuffs.bleed,
+        ],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -637,6 +1297,17 @@ export const cards = [
     part: parts.BACK,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [
+          statusEffects.debuffs.bleed,
+        ],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -646,6 +1317,15 @@ export const cards = [
     part: parts.BACK,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -655,6 +1335,17 @@ export const cards = [
     part: parts.BACK,
     type: [type.ATTACK],
     energyCost: 2,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [
+          statusEffects.debuffs.poison,
+        ],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -664,6 +1355,15 @@ export const cards = [
     part: parts.BACK,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -673,6 +1373,17 @@ export const cards = [
     part: parts.BACK,
     type: [type.SKILL],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [
+          statusEffects.debuffs.poison,
+        ],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -682,6 +1393,15 @@ export const cards = [
     part: parts.BACK,
     type: [type.SECRET],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -691,6 +1411,15 @@ export const cards = [
     part: parts.BACK,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -700,6 +1429,15 @@ export const cards = [
     part: parts.BACK,
     type: [type.SECRET],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -709,6 +1447,17 @@ export const cards = [
     part: parts.BACK,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [
+          statusEffects.buffs.bleed,
+        ],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -718,6 +1467,15 @@ export const cards = [
     part: parts.BACK,
     type: [type.SECRET],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -727,6 +1485,17 @@ export const cards = [
     part: parts.BACK,
     type: [type.SKILL],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [
+          statusEffects.buffs.cleanser,
+        ],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -736,6 +1505,15 @@ export const cards = [
     part: parts.BACK,
     type: [type.ATTACK],
     energyCost: 2,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -745,6 +1523,17 @@ export const cards = [
     part: parts.BACK,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [
+        curses.blackmail,
+      ],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -754,6 +1543,15 @@ export const cards = [
     part: parts.BACK,
     type: [type.SECRET],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -763,6 +1561,17 @@ export const cards = [
     part: parts.BACK,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [
+        curses.jinx,
+      ],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -772,6 +1581,15 @@ export const cards = [
     part: parts.BACK,
     type: [type.SECRET],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -781,6 +1599,17 @@ export const cards = [
     part: parts.BACK,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [
+          statusEffects.debuffs.weak,
+        ],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -790,6 +1619,15 @@ export const cards = [
     part: parts.BACK,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -799,6 +1637,17 @@ export const cards = [
     part: parts.BACK,
     type: [type.ATTACK],
     energyCost: 2,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [
+          statusEffects.debuffs.fear,
+        ],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -808,6 +1657,17 @@ export const cards = [
     part: parts.BACK,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [
+          statusEffects.debuffs.doubt,
+        ],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -817,6 +1677,15 @@ export const cards = [
     part: parts.BACK,
     type: [type.SKILL],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -826,6 +1695,17 @@ export const cards = [
     part: parts.BACK,
     type: [type.SECRET],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [
+        curses.goo,
+      ],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -835,6 +1715,15 @@ export const cards = [
     part: parts.BACK,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -844,6 +1733,17 @@ export const cards = [
     part: parts.BACK,
     type: [type.SECRET],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [
+          statusEffects.buffs.damage_boost,
+        ],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -853,6 +1753,17 @@ export const cards = [
     part: parts.BACK,
     type: [type.SECRET],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [
+        tools.lumber_shield,
+      ],
+    },
   },
   {
     id: uuidv4(),
@@ -862,6 +1773,15 @@ export const cards = [
     part: parts.BACK,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -871,6 +1791,15 @@ export const cards = [
     part: parts.BACK,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -880,6 +1809,15 @@ export const cards = [
     part: parts.BACK,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -889,6 +1827,17 @@ export const cards = [
     part: parts.BACK,
     type: [type.SECRET],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [
+        tools.pure_water,
+      ],
+    },
   },
 
   /**
@@ -902,6 +1851,15 @@ export const cards = [
     part: parts.TAIL,
     type: [type.SKILL],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -911,6 +1869,15 @@ export const cards = [
     part: parts.TAIL,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -920,6 +1887,17 @@ export const cards = [
     part: parts.TAIL,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [
+          statusEffects.neutrals.taunt,
+        ],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -929,6 +1907,15 @@ export const cards = [
     part: parts.TAIL,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -941,6 +1928,15 @@ export const cards = [
       type.BANISH,
     ],
     energyCost: 0,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -950,6 +1946,17 @@ export const cards = [
     part: parts.TAIL,
     type: [type.ATTACK],
     energyCost: 2,
+    metaData: {
+      statusEffects: {
+        buffs: [
+          statusEffects.buffs.feather,
+        ],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -959,6 +1966,17 @@ export const cards = [
     part: parts.TAIL,
     type: [type.SECRET],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [
+          statusEffects.debuffs.weak,
+        ],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -968,6 +1986,15 @@ export const cards = [
     part: parts.TAIL,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -977,6 +2004,17 @@ export const cards = [
     part: parts.TAIL,
     type: [type.ATTACK],
     energyCost: 2,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [
+          statusEffects.debuffs.poison,
+        ],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -989,6 +2027,17 @@ export const cards = [
       type.INNATE,
     ],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [
+          statusEffects.debuffs.vulnerable,
+        ],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -998,6 +2047,17 @@ export const cards = [
     part: parts.TAIL,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [
+          statusEffects.debuffs.hex,
+        ],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -1007,6 +2067,17 @@ export const cards = [
     part: parts.TAIL,
     type: [type.SECRET],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [
+          statusEffects.debuffs.fear,
+        ],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -1016,6 +2087,15 @@ export const cards = [
     part: parts.TAIL,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -1025,6 +2105,17 @@ export const cards = [
     part: parts.TAIL,
     type: [type.SECRET],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [
+          statusEffects.debuffs.fear,
+        ],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -1034,6 +2125,17 @@ export const cards = [
     part: parts.TAIL,
     type: [type.SKILL],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [
+        curses.burn,
+      ],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -1043,6 +2145,17 @@ export const cards = [
     part: parts.TAIL,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [
+          statusEffects.debuffs.weak,
+        ],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -1052,6 +2165,15 @@ export const cards = [
     part: parts.TAIL,
     type: [type.ATTACK],
     energyCost: 2,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -1061,6 +2183,15 @@ export const cards = [
     part: parts.TAIL,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -1073,6 +2204,15 @@ export const cards = [
       type.BANISH,
     ],
     energyCost: 0,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -1082,6 +2222,15 @@ export const cards = [
     part: parts.TAIL,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -1091,6 +2240,15 @@ export const cards = [
     part: parts.TAIL,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -1100,6 +2258,17 @@ export const cards = [
     part: parts.TAIL,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [
+          statusEffects.buffs.stealth,
+        ],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -1109,6 +2278,17 @@ export const cards = [
     part: parts.TAIL,
     type: [type.SECRET],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [
+          statusEffects.buffs.damage_boost,
+        ],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -1118,6 +2298,17 @@ export const cards = [
     part: parts.TAIL,
     type: [type.ATTACK],
     energyCost: 2,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [
+          statusEffects.debuffs.weak,
+        ],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -1127,6 +2318,15 @@ export const cards = [
     part: parts.TAIL,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -1136,6 +2336,17 @@ export const cards = [
     part: parts.TAIL,
     type: [type.ATTACK],
     energyCost: 2,
+    metaData: {
+      statusEffects: {
+        buffs: [
+          statusEffects.buffs.rage,
+        ],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -1145,6 +2356,15 @@ export const cards = [
     part: parts.TAIL,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -1154,6 +2374,15 @@ export const cards = [
     part: parts.TAIL,
     type: [type.SECRET],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -1163,6 +2392,15 @@ export const cards = [
     part: parts.TAIL,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -1172,6 +2410,17 @@ export const cards = [
     part: parts.TAIL,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [
+        curses.jinx,
+      ],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -1181,6 +2430,15 @@ export const cards = [
     part: parts.TAIL,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -1190,6 +2448,15 @@ export const cards = [
     part: parts.TAIL,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -1202,6 +2469,15 @@ export const cards = [
       type.RETAIN,
     ],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -1211,6 +2487,15 @@ export const cards = [
     part: parts.TAIL,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -1220,6 +2505,15 @@ export const cards = [
     part: parts.TAIL,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -1229,6 +2523,17 @@ export const cards = [
     part: parts.TAIL,
     type: [type.ATTACK],
     energyCost: 0,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [
+          statusEffects.debuffs.poison,
+        ],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
 
   /**
@@ -1242,6 +2547,17 @@ export const cards = [
     part: parts.EAR,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [
+          statusEffects.debuffs.bleed,
+        ],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -1251,6 +2567,17 @@ export const cards = [
     part: parts.EAR,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [
+          statusEffects.buffs.rage,
+        ],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -1260,6 +2587,17 @@ export const cards = [
     part: parts.EAR,
     type: [type.SKILL],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [
+          statusEffects.buffs.bubble,
+        ],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -1269,6 +2607,15 @@ export const cards = [
     part: parts.EAR,
     type: [type.SKILL],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -1278,6 +2625,15 @@ export const cards = [
     part: parts.EAR,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -1287,6 +2643,17 @@ export const cards = [
     part: parts.EAR,
     type: [type.SECRET],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [
+          statusEffects.debuffs.bleed,
+        ],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -1296,6 +2663,17 @@ export const cards = [
     part: parts.EAR,
     type: [type.ATTACK],
     energyCost: 2,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [
+        curses.goo,
+      ],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -1305,6 +2683,15 @@ export const cards = [
     part: parts.EAR,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -1314,6 +2701,15 @@ export const cards = [
     part: parts.EAR,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -1323,6 +2719,17 @@ export const cards = [
     part: parts.EAR,
     type: [type.SKILL],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [
+          statusEffects.buffs.healing_boost,
+        ],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -1332,6 +2739,17 @@ export const cards = [
     part: parts.EAR,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [
+          statusEffects.buffs.bubble,
+        ],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -1341,6 +2759,15 @@ export const cards = [
     part: parts.EAR,
     type: [type.SKILL],
     energyCost: 0,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -1350,6 +2777,17 @@ export const cards = [
     part: parts.EAR,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [
+        curses.jinx,
+      ],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -1362,6 +2800,15 @@ export const cards = [
       type.BANISH,
     ],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -1371,6 +2818,15 @@ export const cards = [
     part: parts.EAR,
     type: [type.SKILL],
     energyCost: 0,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -1380,6 +2836,15 @@ export const cards = [
     part: parts.EAR,
     type: [type.SKILL],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -1389,6 +2854,17 @@ export const cards = [
     part: parts.EAR,
     type: [type.ATTACK],
     energyCost: 0,
+    metaData: {
+      statusEffects: {
+        buffs: [
+          statusEffects.buffs.leaf,
+        ],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -1398,6 +2874,15 @@ export const cards = [
     part: parts.EAR,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -1407,6 +2892,15 @@ export const cards = [
     part: parts.EAR,
     type: [type.SKILL],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -1416,6 +2910,15 @@ export const cards = [
     part: parts.EAR,
     type: [type.SKILL],
     energyCost: 0,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -1425,6 +2928,15 @@ export const cards = [
     part: parts.EAR,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -1434,6 +2946,15 @@ export const cards = [
     part: parts.EAR,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -1443,6 +2964,17 @@ export const cards = [
     part: parts.EAR,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [
+          statusEffects.debuffs.fragile,
+        ],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -1452,6 +2984,17 @@ export const cards = [
     part: parts.EAR,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [
+          statusEffects.debuffs.weak,
+        ],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -1464,6 +3007,15 @@ export const cards = [
       type.BANISH
     ],
     energyCost: 0,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -1473,6 +3025,15 @@ export const cards = [
     part: parts.EAR,
     type: [type.SKILL],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -1482,6 +3043,17 @@ export const cards = [
     part: parts.EAR,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [
+          statusEffects.debuffs.weak,
+        ],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -1495,6 +3067,18 @@ export const cards = [
       type.INNATE,
     ],
     energyCost: 0,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [
+          statusEffects.debuffs.poison,
+          statusEffects.debuffs.sleep,
+        ],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -1504,6 +3088,15 @@ export const cards = [
     part: parts.EAR,
     type: [type.POWER],
     energyCost: 2,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -1513,6 +3106,17 @@ export const cards = [
     part: parts.EAR,
     type: [type.ATTACK],
     energyCost: 2,
+    metaData: {
+      statusEffects: {
+        buffs: [
+          statusEffects.buffs.cleanser,
+        ],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -1522,6 +3126,18 @@ export const cards = [
     part: parts.EAR,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [
+          statusEffects.debuffs.poison,
+          statusEffects.debuffs.bleed,
+        ],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -1531,6 +3147,17 @@ export const cards = [
     part: parts.EAR,
     type: [type.SKILL],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [
+          statusEffects.debuffs.poison,
+        ],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -1540,6 +3167,17 @@ export const cards = [
     part: parts.EAR,
     type: [type.SKILL],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [
+        curses.confused,
+      ],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -1549,6 +3187,15 @@ export const cards = [
     part: parts.EAR,
     type: [type.SKILL],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -1558,6 +3205,17 @@ export const cards = [
     part: parts.EAR,
     type: [type.SKILL],
     energyCost: 0,
+    metaData: {
+      statusEffects: {
+        buffs: [
+          statusEffects.buffs.damage_boost,
+        ],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -1567,6 +3225,17 @@ export const cards = [
     part: parts.EAR,
     type: [type.SKILL],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [
+          statusEffects.buffs.meditate,
+        ],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
 
   /**
@@ -1583,6 +3252,15 @@ export const cards = [
       type.BANISH,
     ],
     energyCost: 0,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -1595,6 +3273,15 @@ export const cards = [
       type.BANISH,
     ],
     energyCost: 0,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -1604,6 +3291,15 @@ export const cards = [
     part: parts.EYE,
     type: [type.ATTACK],
     energyCost: 2,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -1616,6 +3312,15 @@ export const cards = [
       type.BANISH,
     ],
     energyCost: 0,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -1625,6 +3330,17 @@ export const cards = [
     part: parts.EYE,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [
+        curses.confused,
+      ],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -1634,6 +3350,17 @@ export const cards = [
     part: parts.EYE,
     type: [type.SKILL],
     energyCost: 2,
+    metaData: {
+      statusEffects: {
+        buffs: [
+          statusEffects.buffs.healing_boost,
+        ],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -1643,6 +3370,15 @@ export const cards = [
     part: parts.EYE,
     type: [type.SKILL],
     energyCost: 0,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -1652,6 +3388,17 @@ export const cards = [
     part: parts.EYE,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [
+          statusEffects.debuffs.fragile,
+        ],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -1661,6 +3408,17 @@ export const cards = [
     part: parts.EYE,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [
+          statusEffects.debuffs.death_mark,
+        ],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -1670,6 +3428,15 @@ export const cards = [
     part: parts.EYE,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -1679,6 +3446,17 @@ export const cards = [
     part: parts.EYE,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [
+          statusEffects.debuffs.vulnerable,
+        ],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -1691,6 +3469,15 @@ export const cards = [
       type.BANISH,
     ],
     energyCost: 0,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -1700,6 +3487,15 @@ export const cards = [
     part: parts.EYE,
     type: [type.SKILL],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -1712,6 +3508,15 @@ export const cards = [
       type.BANISH,
     ],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -1724,6 +3529,15 @@ export const cards = [
       type.BANISH,
     ],
     energyCost: 0,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -1733,6 +3547,15 @@ export const cards = [
     part: parts.EYE,
     type: [type.SKILL],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -1745,6 +3568,15 @@ export const cards = [
       type.BANISH,
     ],
     energyCost: 0,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -1754,6 +3586,15 @@ export const cards = [
     part: parts.EYE,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -1766,6 +3607,15 @@ export const cards = [
       type.BANISH,
     ],
     energyCost: 0,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -1775,6 +3625,17 @@ export const cards = [
     part: parts.EYE,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [
+        curses.daze,
+      ],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -1787,6 +3648,15 @@ export const cards = [
       type.BANISH,
     ],
     energyCost: 0,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -1796,6 +3666,15 @@ export const cards = [
     part: parts.EYE,
     type: [type.ATTACK],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -1805,6 +3684,15 @@ export const cards = [
     part: parts.EYE,
     type: [type.SKILL],
     energyCost: 1,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
   {
     id: uuidv4(),
@@ -1817,5 +3705,14 @@ export const cards = [
       type.BANISH,
     ],
     energyCost: 0,
+    metaData: {
+      statusEffects: {
+        buffs: [],
+        debuffs: [],
+        neutrals: [],
+      },
+      curses: [],
+      tools: [],
+    },
   },
 ];

@@ -1,0 +1,21 @@
+@import './constants.css';
+
+
+.info-viewer {
+  display: none;
+  position: absolute;
+  height: 500px;
+  width: 500px;
+  background-color: var(--paper-dark);
+  bottom: 50px;
+  right: 50px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.info-viewer-inner {
+  background-color: var(--paper);
+  border-radius: 8px;
+  height: 100%;
+  width: 100%;
+}
