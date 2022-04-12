@@ -27,7 +27,7 @@ const ViewPane = () => {
       </div>
 
       <div className="mobile-health-text">
-        Tap cards with <i>status-effect, tools or curses</i> to show more information ...
+        Tap cards with <i>status-effects, tools or curses</i> to show more information ...
       </div>
 
       <div className="card-viewer-container">
