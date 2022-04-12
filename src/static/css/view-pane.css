@@ -141,7 +141,7 @@
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 380px) {
   .card-list-container {
     grid-template-columns: repeat(1, 1fr);
   }
