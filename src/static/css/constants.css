@@ -39,6 +39,8 @@
   --color-bird: #ff8bbd;
   --color-plant: #6cc000;
   --color-reptile: #dc8be4;
+  --paper-info: rgb(147, 110, 89);
+  --paper-darker: rgb(57, 36, 26);
   --paper-dark: rgb(240, 220, 192);
   --paper: rgb(255, 240, 220);
 

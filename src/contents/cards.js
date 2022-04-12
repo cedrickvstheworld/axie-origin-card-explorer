@@ -20,7 +20,7 @@ export const cards = [
     part: parts.HORN,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -41,7 +41,7 @@ export const cards = [
       type.BANISH,
     ],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -59,7 +59,7 @@ export const cards = [
     part: parts.HORN,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -77,7 +77,7 @@ export const cards = [
     part: parts.HORN,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [
@@ -97,7 +97,7 @@ export const cards = [
     part: parts.HORN,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -115,7 +115,7 @@ export const cards = [
     part: parts.HORN,
     type: [type.ATTACK],
     energyCost: 2,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -136,7 +136,7 @@ export const cards = [
       type.INNATE,
     ],
     energyCost: 2,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -154,7 +154,7 @@ export const cards = [
     part: parts.HORN,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -172,7 +172,7 @@ export const cards = [
     part: parts.HORN,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [
@@ -192,7 +192,7 @@ export const cards = [
     part: parts.HORN,
     type: [type.SECRET],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -210,7 +210,7 @@ export const cards = [
     part: parts.HORN,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [
           statusEffects.buffs.damage_boost,
@@ -230,7 +230,7 @@ export const cards = [
     part: parts.HORN,
     type: [type.SKILL],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [
@@ -250,7 +250,7 @@ export const cards = [
     part: parts.HORN,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [
@@ -270,7 +270,7 @@ export const cards = [
     part: parts.HORN,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -290,7 +290,7 @@ export const cards = [
     part: parts.HORN,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -308,7 +308,7 @@ export const cards = [
     part: parts.HORN,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [
           statusEffects.buffs.fury,
@@ -328,7 +328,7 @@ export const cards = [
     part: parts.HORN,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [
@@ -348,7 +348,7 @@ export const cards = [
     part: parts.HORN,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [
@@ -368,7 +368,7 @@ export const cards = [
     part: parts.HORN,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [
@@ -388,7 +388,7 @@ export const cards = [
     part: parts.HORN,
     type: [type.SKILL],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -406,7 +406,7 @@ export const cards = [
     part: parts.HORN,
     type: [type.ATTACK],
     energyCost: 2,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [
           statusEffects.buffs.rage,
@@ -426,7 +426,7 @@ export const cards = [
     part: parts.HORN,
     type: [type.SKILL],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -444,7 +444,7 @@ export const cards = [
     part: parts.HORN,
     type: [type.ATTACK],
     energyCost: 2,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -462,7 +462,7 @@ export const cards = [
     part: parts.HORN,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -480,7 +480,7 @@ export const cards = [
     part: parts.HORN,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -498,7 +498,7 @@ export const cards = [
     part: parts.HORN,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -518,7 +518,7 @@ export const cards = [
     part: parts.HORN,
     type: [type.SKILL],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -536,7 +536,7 @@ export const cards = [
     part: parts.HORN,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -554,7 +554,7 @@ export const cards = [
     part: parts.HORN,
     type: [type.SECRET],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -572,7 +572,7 @@ export const cards = [
     part: parts.HORN,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -590,7 +590,7 @@ export const cards = [
     part: parts.HORN,
     type: [type.SKILL],
     energyCost: 2,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -610,7 +610,7 @@ export const cards = [
     part: parts.HORN,
     type: [type.SKILL],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -628,7 +628,7 @@ export const cards = [
     part: parts.HORN,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -646,7 +646,7 @@ export const cards = [
     part: parts.HORN,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -666,7 +666,7 @@ export const cards = [
     part: parts.HORN,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -684,7 +684,7 @@ export const cards = [
     part: parts.HORN,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -706,7 +706,7 @@ export const cards = [
     part: parts.MOUTH,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [
@@ -726,7 +726,7 @@ export const cards = [
     part: parts.MOUTH,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -744,7 +744,7 @@ export const cards = [
     part: parts.MOUTH,
     type: [type.SKILL],
     energyCost: 0,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [
           statusEffects.buffs.rage,
@@ -764,7 +764,7 @@ export const cards = [
     part: parts.MOUTH,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [
@@ -784,7 +784,7 @@ export const cards = [
     part: parts.MOUTH,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [
@@ -807,7 +807,7 @@ export const cards = [
       type.BANISH,
     ],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -827,7 +827,7 @@ export const cards = [
     part: parts.MOUTH,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -845,7 +845,7 @@ export const cards = [
     part: parts.MOUTH,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -863,7 +863,7 @@ export const cards = [
     part: parts.MOUTH,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -881,7 +881,7 @@ export const cards = [
     part: parts.MOUTH,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -899,7 +899,7 @@ export const cards = [
     part: parts.MOUTH,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -917,7 +917,7 @@ export const cards = [
     part: parts.MOUTH,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -935,7 +935,7 @@ export const cards = [
     part: parts.MOUTH,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -953,7 +953,7 @@ export const cards = [
     part: parts.MOUTH,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [
@@ -973,7 +973,7 @@ export const cards = [
     part: parts.MOUTH,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [
@@ -993,7 +993,7 @@ export const cards = [
     part: parts.MOUTH,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [
@@ -1013,7 +1013,7 @@ export const cards = [
     part: parts.MOUTH,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -1031,7 +1031,7 @@ export const cards = [
     part: parts.MOUTH,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [
@@ -1051,7 +1051,7 @@ export const cards = [
     part: parts.MOUTH,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -1069,7 +1069,7 @@ export const cards = [
     part: parts.MOUTH,
     type: [type.SKILL],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -1087,7 +1087,7 @@ export const cards = [
     part: parts.MOUTH,
     type: [type.ATTACK],
     energyCost: 0,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -1105,7 +1105,7 @@ export const cards = [
     part: parts.MOUTH,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [
@@ -1125,7 +1125,7 @@ export const cards = [
     part: parts.MOUTH,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -1143,7 +1143,7 @@ export const cards = [
     part: parts.MOUTH,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -1165,7 +1165,7 @@ export const cards = [
     part: parts.BACK,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -1183,7 +1183,7 @@ export const cards = [
     part: parts.BACK,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [
@@ -1203,7 +1203,7 @@ export const cards = [
     part: parts.BACK,
     type: [type.SKILL],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -1221,7 +1221,7 @@ export const cards = [
     part: parts.BACK,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -1239,7 +1239,7 @@ export const cards = [
     part: parts.BACK,
     type: [type.SECRET],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -1257,7 +1257,7 @@ export const cards = [
     part: parts.BACK,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -1277,7 +1277,7 @@ export const cards = [
     part: parts.BACK,
     type: [type.SECRET],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [
@@ -1297,7 +1297,7 @@ export const cards = [
     part: parts.BACK,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [
@@ -1317,7 +1317,7 @@ export const cards = [
     part: parts.BACK,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -1335,7 +1335,7 @@ export const cards = [
     part: parts.BACK,
     type: [type.ATTACK],
     energyCost: 2,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [
@@ -1355,7 +1355,7 @@ export const cards = [
     part: parts.BACK,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -1373,7 +1373,7 @@ export const cards = [
     part: parts.BACK,
     type: [type.SKILL],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [
@@ -1393,7 +1393,7 @@ export const cards = [
     part: parts.BACK,
     type: [type.SECRET],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -1411,7 +1411,7 @@ export const cards = [
     part: parts.BACK,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -1429,7 +1429,7 @@ export const cards = [
     part: parts.BACK,
     type: [type.SECRET],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -1447,7 +1447,7 @@ export const cards = [
     part: parts.BACK,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [
@@ -1467,7 +1467,7 @@ export const cards = [
     part: parts.BACK,
     type: [type.SECRET],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -1485,7 +1485,7 @@ export const cards = [
     part: parts.BACK,
     type: [type.SKILL],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [
           statusEffects.buffs.cleanser,
@@ -1505,7 +1505,7 @@ export const cards = [
     part: parts.BACK,
     type: [type.ATTACK],
     energyCost: 2,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -1523,7 +1523,7 @@ export const cards = [
     part: parts.BACK,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -1543,7 +1543,7 @@ export const cards = [
     part: parts.BACK,
     type: [type.SECRET],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -1561,7 +1561,7 @@ export const cards = [
     part: parts.BACK,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -1581,7 +1581,7 @@ export const cards = [
     part: parts.BACK,
     type: [type.SECRET],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -1599,7 +1599,7 @@ export const cards = [
     part: parts.BACK,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [
@@ -1619,7 +1619,7 @@ export const cards = [
     part: parts.BACK,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -1637,7 +1637,7 @@ export const cards = [
     part: parts.BACK,
     type: [type.ATTACK],
     energyCost: 2,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [
@@ -1657,7 +1657,7 @@ export const cards = [
     part: parts.BACK,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [
@@ -1677,7 +1677,7 @@ export const cards = [
     part: parts.BACK,
     type: [type.SKILL],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -1695,7 +1695,7 @@ export const cards = [
     part: parts.BACK,
     type: [type.SECRET],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -1715,7 +1715,7 @@ export const cards = [
     part: parts.BACK,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -1733,7 +1733,7 @@ export const cards = [
     part: parts.BACK,
     type: [type.SECRET],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [
           statusEffects.buffs.damage_boost,
@@ -1753,7 +1753,7 @@ export const cards = [
     part: parts.BACK,
     type: [type.SECRET],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -1773,7 +1773,7 @@ export const cards = [
     part: parts.BACK,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -1791,7 +1791,7 @@ export const cards = [
     part: parts.BACK,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -1809,7 +1809,7 @@ export const cards = [
     part: parts.BACK,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -1827,7 +1827,7 @@ export const cards = [
     part: parts.BACK,
     type: [type.SECRET],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -1851,7 +1851,7 @@ export const cards = [
     part: parts.TAIL,
     type: [type.SKILL],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -1869,7 +1869,7 @@ export const cards = [
     part: parts.TAIL,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -1887,7 +1887,7 @@ export const cards = [
     part: parts.TAIL,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -1907,7 +1907,7 @@ export const cards = [
     part: parts.TAIL,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -1928,7 +1928,7 @@ export const cards = [
       type.BANISH,
     ],
     energyCost: 0,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -1946,7 +1946,7 @@ export const cards = [
     part: parts.TAIL,
     type: [type.ATTACK],
     energyCost: 2,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [
           statusEffects.buffs.feather,
@@ -1966,7 +1966,7 @@ export const cards = [
     part: parts.TAIL,
     type: [type.SECRET],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [
@@ -1986,7 +1986,7 @@ export const cards = [
     part: parts.TAIL,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -2004,7 +2004,7 @@ export const cards = [
     part: parts.TAIL,
     type: [type.ATTACK],
     energyCost: 2,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [
@@ -2027,7 +2027,7 @@ export const cards = [
       type.INNATE,
     ],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [
@@ -2047,7 +2047,7 @@ export const cards = [
     part: parts.TAIL,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [
@@ -2067,7 +2067,7 @@ export const cards = [
     part: parts.TAIL,
     type: [type.SECRET],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [
@@ -2087,7 +2087,7 @@ export const cards = [
     part: parts.TAIL,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -2105,7 +2105,7 @@ export const cards = [
     part: parts.TAIL,
     type: [type.SECRET],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [
@@ -2125,7 +2125,7 @@ export const cards = [
     part: parts.TAIL,
     type: [type.SKILL],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -2145,7 +2145,7 @@ export const cards = [
     part: parts.TAIL,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [
@@ -2165,7 +2165,7 @@ export const cards = [
     part: parts.TAIL,
     type: [type.ATTACK],
     energyCost: 2,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -2183,7 +2183,7 @@ export const cards = [
     part: parts.TAIL,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -2204,7 +2204,7 @@ export const cards = [
       type.BANISH,
     ],
     energyCost: 0,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -2222,7 +2222,7 @@ export const cards = [
     part: parts.TAIL,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -2240,7 +2240,7 @@ export const cards = [
     part: parts.TAIL,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -2258,7 +2258,7 @@ export const cards = [
     part: parts.TAIL,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [
           statusEffects.buffs.stealth,
@@ -2278,7 +2278,7 @@ export const cards = [
     part: parts.TAIL,
     type: [type.SECRET],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [
           statusEffects.buffs.damage_boost,
@@ -2298,7 +2298,7 @@ export const cards = [
     part: parts.TAIL,
     type: [type.ATTACK],
     energyCost: 2,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [
@@ -2318,7 +2318,7 @@ export const cards = [
     part: parts.TAIL,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -2336,7 +2336,7 @@ export const cards = [
     part: parts.TAIL,
     type: [type.ATTACK],
     energyCost: 2,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [
           statusEffects.buffs.rage,
@@ -2356,7 +2356,7 @@ export const cards = [
     part: parts.TAIL,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -2374,7 +2374,7 @@ export const cards = [
     part: parts.TAIL,
     type: [type.SECRET],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -2392,7 +2392,7 @@ export const cards = [
     part: parts.TAIL,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -2410,7 +2410,7 @@ export const cards = [
     part: parts.TAIL,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -2430,7 +2430,7 @@ export const cards = [
     part: parts.TAIL,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -2448,7 +2448,7 @@ export const cards = [
     part: parts.TAIL,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -2469,7 +2469,7 @@ export const cards = [
       type.RETAIN,
     ],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -2487,7 +2487,7 @@ export const cards = [
     part: parts.TAIL,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -2505,7 +2505,7 @@ export const cards = [
     part: parts.TAIL,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -2523,7 +2523,7 @@ export const cards = [
     part: parts.TAIL,
     type: [type.ATTACK],
     energyCost: 0,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [
@@ -2547,7 +2547,7 @@ export const cards = [
     part: parts.EAR,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [
@@ -2567,7 +2567,7 @@ export const cards = [
     part: parts.EAR,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [
           statusEffects.buffs.rage,
@@ -2587,7 +2587,7 @@ export const cards = [
     part: parts.EAR,
     type: [type.SKILL],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [
           statusEffects.buffs.bubble,
@@ -2607,7 +2607,7 @@ export const cards = [
     part: parts.EAR,
     type: [type.SKILL],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -2625,7 +2625,7 @@ export const cards = [
     part: parts.EAR,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -2643,7 +2643,7 @@ export const cards = [
     part: parts.EAR,
     type: [type.SECRET],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [
@@ -2663,7 +2663,7 @@ export const cards = [
     part: parts.EAR,
     type: [type.ATTACK],
     energyCost: 2,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -2683,7 +2683,7 @@ export const cards = [
     part: parts.EAR,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -2701,7 +2701,7 @@ export const cards = [
     part: parts.EAR,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -2719,10 +2719,10 @@ export const cards = [
     part: parts.EAR,
     type: [type.SKILL],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [
-          statusEffects.buffs.healing_boost,
+          statusEffects.buffs.damage_boost,
         ],
         debuffs: [],
         neutrals: [],
@@ -2739,7 +2739,7 @@ export const cards = [
     part: parts.EAR,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [
           statusEffects.buffs.bubble,
@@ -2759,7 +2759,7 @@ export const cards = [
     part: parts.EAR,
     type: [type.SKILL],
     energyCost: 0,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -2777,7 +2777,7 @@ export const cards = [
     part: parts.EAR,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -2800,7 +2800,7 @@ export const cards = [
       type.BANISH,
     ],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -2818,7 +2818,7 @@ export const cards = [
     part: parts.EAR,
     type: [type.SKILL],
     energyCost: 0,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -2836,7 +2836,7 @@ export const cards = [
     part: parts.EAR,
     type: [type.SKILL],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -2854,7 +2854,7 @@ export const cards = [
     part: parts.EAR,
     type: [type.ATTACK],
     energyCost: 0,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [
           statusEffects.buffs.leaf,
@@ -2874,7 +2874,7 @@ export const cards = [
     part: parts.EAR,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -2892,7 +2892,7 @@ export const cards = [
     part: parts.EAR,
     type: [type.SKILL],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -2910,7 +2910,7 @@ export const cards = [
     part: parts.EAR,
     type: [type.SKILL],
     energyCost: 0,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -2928,7 +2928,7 @@ export const cards = [
     part: parts.EAR,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -2946,7 +2946,7 @@ export const cards = [
     part: parts.EAR,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -2964,7 +2964,7 @@ export const cards = [
     part: parts.EAR,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [
@@ -2984,7 +2984,7 @@ export const cards = [
     part: parts.EAR,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [
@@ -3007,7 +3007,7 @@ export const cards = [
       type.BANISH
     ],
     energyCost: 0,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -3025,7 +3025,7 @@ export const cards = [
     part: parts.EAR,
     type: [type.SKILL],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -3043,7 +3043,7 @@ export const cards = [
     part: parts.EAR,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [
@@ -3067,7 +3067,7 @@ export const cards = [
       type.INNATE,
     ],
     energyCost: 0,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [
@@ -3088,7 +3088,7 @@ export const cards = [
     part: parts.EAR,
     type: [type.POWER],
     energyCost: 2,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -3106,7 +3106,7 @@ export const cards = [
     part: parts.EAR,
     type: [type.ATTACK],
     energyCost: 2,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [
           statusEffects.buffs.cleanser,
@@ -3126,7 +3126,7 @@ export const cards = [
     part: parts.EAR,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [
@@ -3147,7 +3147,7 @@ export const cards = [
     part: parts.EAR,
     type: [type.SKILL],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [
@@ -3167,7 +3167,7 @@ export const cards = [
     part: parts.EAR,
     type: [type.SKILL],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -3187,7 +3187,7 @@ export const cards = [
     part: parts.EAR,
     type: [type.SKILL],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -3205,7 +3205,7 @@ export const cards = [
     part: parts.EAR,
     type: [type.SKILL],
     energyCost: 0,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [
           statusEffects.buffs.damage_boost,
@@ -3225,7 +3225,7 @@ export const cards = [
     part: parts.EAR,
     type: [type.SKILL],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [
           statusEffects.buffs.meditate,
@@ -3252,7 +3252,7 @@ export const cards = [
       type.BANISH,
     ],
     energyCost: 0,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -3273,7 +3273,7 @@ export const cards = [
       type.BANISH,
     ],
     energyCost: 0,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -3291,7 +3291,7 @@ export const cards = [
     part: parts.EYE,
     type: [type.ATTACK],
     energyCost: 2,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -3312,7 +3312,7 @@ export const cards = [
       type.BANISH,
     ],
     energyCost: 0,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -3330,7 +3330,7 @@ export const cards = [
     part: parts.EYE,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -3350,7 +3350,7 @@ export const cards = [
     part: parts.EYE,
     type: [type.SKILL],
     energyCost: 2,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [
           statusEffects.buffs.healing_boost,
@@ -3370,7 +3370,7 @@ export const cards = [
     part: parts.EYE,
     type: [type.SKILL],
     energyCost: 0,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -3388,7 +3388,7 @@ export const cards = [
     part: parts.EYE,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [
@@ -3408,7 +3408,7 @@ export const cards = [
     part: parts.EYE,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [
@@ -3428,7 +3428,7 @@ export const cards = [
     part: parts.EYE,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -3446,7 +3446,7 @@ export const cards = [
     part: parts.EYE,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [
@@ -3469,7 +3469,7 @@ export const cards = [
       type.BANISH,
     ],
     energyCost: 0,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -3487,7 +3487,7 @@ export const cards = [
     part: parts.EYE,
     type: [type.SKILL],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -3508,7 +3508,7 @@ export const cards = [
       type.BANISH,
     ],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -3529,7 +3529,7 @@ export const cards = [
       type.BANISH,
     ],
     energyCost: 0,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -3547,7 +3547,7 @@ export const cards = [
     part: parts.EYE,
     type: [type.SKILL],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -3568,7 +3568,7 @@ export const cards = [
       type.BANISH,
     ],
     energyCost: 0,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -3586,7 +3586,7 @@ export const cards = [
     part: parts.EYE,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -3607,7 +3607,7 @@ export const cards = [
       type.BANISH,
     ],
     energyCost: 0,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -3625,7 +3625,7 @@ export const cards = [
     part: parts.EYE,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -3648,7 +3648,7 @@ export const cards = [
       type.BANISH,
     ],
     energyCost: 0,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -3666,7 +3666,7 @@ export const cards = [
     part: parts.EYE,
     type: [type.ATTACK],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -3684,7 +3684,7 @@ export const cards = [
     part: parts.EYE,
     type: [type.SKILL],
     energyCost: 1,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
@@ -3705,7 +3705,7 @@ export const cards = [
       type.BANISH,
     ],
     energyCost: 0,
-    metaData: {
+    metadata: {
       statusEffects: {
         buffs: [],
         debuffs: [],
