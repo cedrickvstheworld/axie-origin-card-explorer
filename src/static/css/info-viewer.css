@@ -1,0 +1,97 @@
+@import './constants.css';
+
+
+.info-viewer {
+  position: absolute;
+  width: 500px;
+  background-color: var(--paper-dark);
+  bottom: 50px;
+  right: 50px;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.info-viewer-inner {
+  padding: 15px;
+  background-color: var(--paper);
+  border-radius: 7px;
+  height: 100%;
+  width: 100%;
+  color: var(--paper-darker);
+  position: relative;
+}
+
+.info-viewer-icon {
+  color: var(--paper-info);
+  position: absolute;
+  right: -15px;
+  top: -15px;
+  transform: rotate(12deg);
+}
+
+.status-effects-wrapper,
+.tools-curses-wrapper {
+  margin-bottom: 20px;
+}
+
+.status-effect-text,
+.tools-text,
+.curses-text {
+  font-size: var(--font-size-h2);
+  font-weight: bold;
+  color: var(--paper-info);
+  margin: 5px 0;
+}
+
+.status-effect-type-text {
+  font-size: var(--font-size-h3);
+  color: var(--paper-info);
+  font-weight: bold;
+}
+
+.status-effect-items {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.status-effect-clipart {
+  height: 20px;
+  width: 20px;
+}
+
+.status-effect-name,
+.tool-name,
+.curse-name {
+  font-weight: bold;
+}
+
+.status-effect-debuff {
+  font-weight: bold;
+  color: var(--color-danger-4);
+}
+
+.status-effect-neutral {
+  font-weight: bold;
+  color: var(--color-warning-4);
+}
+
+.status-effect-buff {
+  font-weight: bold;
+  color: var(--color-success-4);
+}
+
+@media (max-width: 600px) {
+  .info-viewer {
+    width: auto;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: 10px;
+  }
+
+  .info-viewer-icon {
+    font-size: 30px !important;
+    top: 10px;
+    right: 10px;
+  }
+}

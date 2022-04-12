@@ -8,6 +8,10 @@
   overflow-y: auto;
 }
 
+.mobile-health-text {
+  display: none;
+}
+
 .no-result-text {
   font-size: var(--font-size-h1);
 }
@@ -134,5 +138,19 @@
   .card-image {
     width: 160px;
     height: 240px;
+  }
+}
+
+@media (max-width: 400px) {
+  .card-list-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media only screen and (hover: none) and (pointer: coarse){
+  .mobile-health-text {
+    display: block;
+    margin-top: 10px;
+    color: var(--color-default);
   }
 }

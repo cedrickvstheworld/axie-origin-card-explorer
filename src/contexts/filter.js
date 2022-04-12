@@ -43,6 +43,6 @@ const FilterContextProvider = (props) => {
       {props.children}
     </FilterContext.Provider>
   );
-}
+};
 
 export default FilterContextProvider;

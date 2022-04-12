@@ -1,11 +1,14 @@
 import Root from './components/root';
 import FilterContextProvider from './contexts/filter';
+import MetadataContextProvider from './contexts/metadata';
 
 function App() {
   return (
     <div className="App">
       <FilterContextProvider>
-        <Root />
+        <MetadataContextProvider>
+          <Root />
+        </MetadataContextProvider>
       </FilterContextProvider>
     </div>
   );

@@ -1,4 +1,4 @@
-import AdSpace from './partials/ad-space';
+// import AdSpace from './partials/ad-space';
 import HorizontalDivider from './partials/horizontal-divider';
 import ClassFilter from './partials/side-pane-filters/class';
 import EnergyCostFilter from './partials/side-pane-filters/energy-cost';
@@ -35,7 +35,7 @@ const SidePane = () => {
 
       <NameFilter />
 
-      <AdSpace />
+      {/* <AdSpace /> */}
     </div>
   );
 };
