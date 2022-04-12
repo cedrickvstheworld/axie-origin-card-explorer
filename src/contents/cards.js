@@ -1855,7 +1855,9 @@ export const cards = [
       statusEffects: {
         buffs: [],
         debuffs: [],
-        neutrals: [],
+        neutrals: [
+          statusEffects.neutrals.taunt,
+        ],
       },
       curses: [],
       tools: [],
