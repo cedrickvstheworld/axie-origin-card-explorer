@@ -23,7 +23,7 @@ const InfoViewer = () => {
             <div key={buff.name} className="status-effect-items">
               <img className="status-effect-clipart" src={buff.imgURL} alt=""/>
               <span>&nbsp;<span className="status-effect-name">{buff.name}</span>:&nbsp;{buff.description}
-              <span className="status-effect-buff">buff</span></span>
+              &nbsp;<span className="status-effect-buff">buff</span></span>
             </div>
           )}
           
@@ -32,7 +32,7 @@ const InfoViewer = () => {
             <div key={debuff.name} className="status-effect-items">
               <img className="status-effect-clipart" src={debuff.imgURL} alt=""/>
               <span>&nbsp;<span className="status-effect-name">{debuff.name}</span>:&nbsp;{debuff.description}
-              <span className="status-effect-debuff">debuff</span></span>
+              &nbsp;<span className="status-effect-debuff">debuff</span></span>
             </div>
           )}
 
@@ -40,7 +40,7 @@ const InfoViewer = () => {
             <div key={neutral.name} className="status-effect-items">
               <img className="status-effect-clipart" src={neutral.imgURL} alt=""/>
               <span>&nbsp;<span className="status-effect-name">{neutral.name}</span>:&nbsp;{neutral.description}
-              <span className="status-effect-neutral">neutral</span></span>
+              &nbsp;<span className="status-effect-neutral">neutral</span></span>
             </div>
           )}
         </div> 
