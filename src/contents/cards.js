@@ -1451,7 +1451,7 @@ export const cards = [
       statusEffects: {
         buffs: [],
         debuffs: [
-          statusEffects.buffs.bleed,
+          statusEffects.debuffs.bleed,
         ],
         neutrals: [],
       },
